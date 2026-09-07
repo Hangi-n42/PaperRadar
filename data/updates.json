@@ -2,6 +2,48 @@
   "version": 1,
   "entries": [
     {
+      "at": "2026-09-07T20:33:55Z",
+      "venueId": "sosp",
+      "editionId": "sosp-2026",
+      "kind": "recovered",
+      "message": "source verified again"
+    },
+    {
+      "at": "2026-09-07T20:33:55Z",
+      "venueId": "sigmetrics",
+      "editionId": "sigmetrics-2027",
+      "kind": "recovered",
+      "message": "source verified again"
+    },
+    {
+      "at": "2026-09-07T20:33:55Z",
+      "venueId": "sigcomm",
+      "editionId": "sigcomm-2026",
+      "kind": "recovered",
+      "message": "source verified again"
+    },
+    {
+      "at": "2026-09-07T20:33:55Z",
+      "venueId": "micro",
+      "editionId": "micro-2026",
+      "kind": "recovered",
+      "message": "source verified again"
+    },
+    {
+      "at": "2026-09-07T20:33:55Z",
+      "venueId": "ipdps",
+      "editionId": "ipdps-2027",
+      "kind": "recovered",
+      "message": "source verified again"
+    },
+    {
+      "at": "2026-09-07T20:33:55Z",
+      "venueId": "asplos",
+      "editionId": "asplos-2027",
+      "kind": "recovered",
+      "message": "source verified again"
+    },
+    {
       "at": "2026-09-06T19:09:55Z",
       "venueId": "sosp",
       "editionId": "sosp-2026",
