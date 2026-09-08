@@ -95,43 +95,43 @@
     "cancelledAt": null
   },
   "eurosys/eurosys-2027/spring/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-05-07T23:59:00-12:00|EuroSys 2027 · 봄 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-05-07T23:59:00-12:00|EuroSys 2027 · 봄 초록 마감|TENTATIVE",
     "cancelledAt": null
   },
   "eurosys/eurosys-2027/spring/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2026-05-14T23:59:00-12:00|EuroSys 2027 · 봄 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-05-14T23:59:00-12:00|EuroSys 2027 · 봄 논문 마감|TENTATIVE",
     "cancelledAt": null
   },
   "eurosys/eurosys-2027/spring/full/notification": {
-    "sequence": 0,
-    "fingerprint": "2026-08-21T23:59:00-12:00|EuroSys 2027 · 봄 결과 통보|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-08-21T23:59:00-12:00|EuroSys 2027 · 봄 결과 통보|TENTATIVE",
     "cancelledAt": null
   },
   "eurosys/eurosys-2027/spring/full/camera-ready": {
-    "sequence": 0,
-    "fingerprint": "2026-09-25T23:59:00-12:00|EuroSys 2027 · 봄 최종본 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-09-25T23:59:00-12:00|EuroSys 2027 · 봄 최종본 마감|TENTATIVE",
     "cancelledAt": null
   },
   "eurosys/eurosys-2027/fall/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-09-17T23:59:00-12:00|EuroSys 2027 · 가을 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-09-17T23:59:00-12:00|EuroSys 2027 · 가을 초록 마감|TENTATIVE",
     "cancelledAt": null
   },
   "eurosys/eurosys-2027/fall/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2026-09-24T23:59:00-12:00|EuroSys 2027 · 가을 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-09-24T23:59:00-12:00|EuroSys 2027 · 가을 논문 마감|TENTATIVE",
     "cancelledAt": null
   },
   "eurosys/eurosys-2027/fall/full/notification": {
-    "sequence": 0,
-    "fingerprint": "2027-01-29T23:59:00-12:00|EuroSys 2027 · 가을 결과 통보|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2027-01-29T23:59:00-12:00|EuroSys 2027 · 가을 결과 통보|TENTATIVE",
     "cancelledAt": null
   },
   "eurosys/eurosys-2027/fall/full/camera-ready": {
-    "sequence": 0,
-    "fingerprint": "2027-03-05T23:59:00-12:00|EuroSys 2027 · 가을 최종본 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2027-03-05T23:59:00-12:00|EuroSys 2027 · 가을 최종본 마감|TENTATIVE",
     "cancelledAt": null
   },
   "hotcarbon/hotcarbon-2026/main/full/abstract": {
