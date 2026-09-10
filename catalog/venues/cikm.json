@@ -1,0 +1,63 @@
+{
+  "id": "cikm",
+  "acronym": "CIKM",
+  "name": "ACM International Conference on Information and Knowledge Management",
+  "type": "conference",
+  "fields": [
+    "column-type-annotation",
+    "semantic-table-interpretation",
+    "semantic-dependency-modeling",
+    "semantic-data-management"
+  ],
+  "topics": [
+    "Column Type Annotation",
+    "Semantic Table Interpretation",
+    "Semantic Dependency Modeling (data and language)",
+    "Semantic Data Management"
+  ],
+  "homepage": "https://cikm2026.diag.uniroma1.it/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://cikm2026.diag.uniroma1.it/full-research-papers/",
+    "allowedHosts": [
+      "cikm2026.diag.uniroma1.it"
+    ],
+    "edition": {
+      "year": 2026,
+      "label": "CIKM 2026"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "main",
+        "label": {
+          "ko": "본 논문",
+          "en": "Main papers"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "abstract",
+            "pattern": "{{DATE}}\\s*[\\u2013-]\\s*Abstract Submission Deadline"
+          },
+          {
+            "type": "paper",
+            "pattern": "{{DATE}}\\s*[\\u2013-]\\s*Full Paper Submission Deadline"
+          },
+          {
+            "type": "notification",
+            "pattern": "{{DATE}}\\s*[\\u2013-]\\s*Notification of Acceptance"
+          },
+          {
+            "type": "camera-ready",
+            "pattern": "{{DATE}}\\s*[\\u2013-]\\s*Camera"
+          }
+        ]
+      }
+    ]
+  }
+}

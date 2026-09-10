@@ -1,0 +1,91 @@
+{
+  "id": "www",
+  "acronym": "WWW",
+  "name": "ACM Web Conference",
+  "type": "conference",
+  "fields": [
+    "column-type-annotation",
+    "semantic-table-interpretation",
+    "semantic-dependency-modeling",
+    "semantic-data-management",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Column Type Annotation",
+    "Semantic Table Interpretation",
+    "Semantic Dependency Modeling (data and language)",
+    "Semantic Data Management",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://www2027.thewebconf.org/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://www2027.thewebconf.org/research-track-papers/",
+    "allowedHosts": [
+      "www2027.thewebconf.org"
+    ],
+    "edition": {
+      "year": 2027,
+      "label": "WWW 2027"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "full",
+        "track": "full",
+        "label": {
+          "ko": "정규 논문",
+          "en": "Full papers"
+        },
+        "milestones": [
+          {
+            "type": "abstract",
+            "pattern": "Full Paper Abstract Submission Deadline\\s*{{DATE}}"
+          },
+          {
+            "type": "paper",
+            "pattern": "Full Paper Submission Deadline\\s*{{DATE}}"
+          },
+          {
+            "type": "notification",
+            "pattern": "Rebuttal Period[\\s\\S]{0,70}?Notification\\s*{{DATE}}"
+          },
+          {
+            "type": "camera-ready",
+            "pattern": "Research & Industry Track Paper Final Version Deadline\\s*{{DATE}}"
+          }
+        ]
+      },
+      {
+        "id": "short",
+        "track": "short",
+        "label": {
+          "ko": "단편 논문",
+          "en": "Short papers"
+        },
+        "milestones": [
+          {
+            "type": "abstract",
+            "pattern": "Short Paper Abstract Submission\\s*{{DATE}}"
+          },
+          {
+            "type": "paper",
+            "pattern": "Short Paper Abstract Submission[\\s\\S]{0,50}?Paper Submission\\s*{{DATE}}"
+          },
+          {
+            "type": "notification",
+            "pattern": "Short Paper[\\s\\S]{0,130}?Notification\\s*{{DATE}}"
+          },
+          {
+            "type": "camera-ready",
+            "pattern": "Short Paper[\\s\\S]{0,180}?Final Version Deadline\\s*{{DATE}}"
+          }
+        ]
+      }
+    ]
+  }
+}

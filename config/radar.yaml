@@ -1,6 +1,9 @@
 # =============================================================================
-# config/radar.yaml — the only file you need to edit. See config/radar.example.yaml
-# for every option with comments, and run `npm run doctor` after changes.
+# config/radar.yaml — the only file you need to edit.
+#   1. copy this file to config/radar.yaml
+#   2. pick your fields / venues below
+#   3. npm run doctor
+# Every id below refers to catalog/ (fields.json, venues/*.json, rankings/*.json).
 # =============================================================================
 version: 1
 
@@ -9,27 +12,52 @@ site:
   tagline:
     ko: "내 분야 학술대회·저널·워크숍 마감 레이더"
     en: "Deadline radar for the venues of my research field"
-  languages: [ko, en]
-  timezone: "Asia/Seoul"
-  baseUrl: "https://jhparkland.github.io/PaperRadar/"
-  upcomingDays: 120
-  archiveDays: 400
+  languages: [ko, en]        # first one is the default UI / calendar language
+  timezone: "Asia/Seoul"     # IANA name; deadlines are also shown in this timezone
+  baseUrl: "https://hangi-n42.github.io/PaperRadar/" # 배포 사이트와 알림 링크 주소
+  upcomingDays: 120          # "Upcoming" tab window
+  archiveDays: 400           # how far back "Past" goes
 
 rankings:
-  show: [kiise-2024, core-2026, sjr-2025]
-  primary: kiise-2024
+  show: [ccf-ai, ccf-data]   # 공식 분야별 출처에서 확인한 등급만 표시
+  primary: ccf-ai           # 기본 등급 정렬 기준이며 미등급 대상도 유지
 
 select:
-  fields: [systems, cloud, hpc, sustainable-computing, architecture, networking, performance, ml-systems]
-  venues: [neurips, icml, iclr, csur, iotj, simpat, applied-energy, energy, rser, ccai]
+  # 요청하신 8개 연구 주제에 해당하는 카탈로그 항목을 추적
+  fields: [column-type-annotation, semantic-table-interpretation, diffusion-models, hyperspherical-representation-learning, semantic-dependency-modeling, data-centric-robotics, semantic-data-management, multimodal-representation-learning]
+  # 분야 외에 개별 추가할 대상 (현재는 분야 선택으로 모두 포함)
+  venues: []
+  # 학술대회·저널·워크숍을 모두 표시
   types: [conference, journal, workshop]
+  # 개별 제외할 대상
   exclude: []
+  # 필요하면 아래 등급 필터를 활성화 (미등급도 유지)
+  # tiers: { scheme: ccf-ai, include: [A, B], keepUnranked: true }
 
+# Venues that are not in the catalog (same schema as catalog/venues/*.json).
+# Prefer contributing them to catalog/ so others benefit — see docs/adding-a-venue.md.
 custom: []
+#  - id: my-lab-workshop
+#    acronym: MLW
+#    name: "My Lab Workshop on Things"
+#    type: workshop
+#    fields: [semantic-data-management]
+#    cfp:
+#      adapter: manual
+#      url: https://example.org/mlw/cfp
+#      edition: { year: 2027, label: "MLW 2027" }
+#      timezone: { label: AoE, time: "23:59" }
+#      rounds:
+#        - id: main
+#          milestones:
+#            - { type: paper, date: 2027-01-15, verifiedAt: 2026-09-02 }
 
-# 🆕 새로 등장 · 🔴 오늘 마감 · 🟠 마감 임박 · 🟡 N일 남음 으로 묶어 하루 한 번.
+# One message a day, grouped into: 🆕 newly announced · 🔴 due today ·
+# 🟠 closing soon · 🟡 N days left (+ 🔁 changed · ❌ removed · ✅ re-verified).
 reminders:
-  daysBefore: [30, 15, 3, 0]
-  imminentDays: 3
+  daysBefore: [30, 15, 3, 0]    # a section per threshold; 0 = on the day itself
+  imminentDays: 3               # thresholds at or below this are grouped as "closing soon"
   language: ko
-  channels: [google-chat]
+  channels: [google-chat]       # google-chat (webhook) and/or email (SMTP) — secrets in GitHub → Settings → Secrets
+  notifyChanges: true           # include dates announced / moved / removed / re-verified since the last message
+  notifyFailures: false         # also include source-verification failures (they open a GitHub issue anyway)

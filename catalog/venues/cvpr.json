@@ -1,7 +1,7 @@
 {
-  "id": "neurips",
-  "acronym": "NeurIPS",
-  "name": "Conference on Neural Information Processing Systems",
+  "id": "cvpr",
+  "acronym": "CVPR",
+  "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
   "type": "conference",
   "fields": [
     "diffusion-models",
@@ -15,17 +15,17 @@
     "Multimodal Representation Learning",
     "Data-Centric Robotics"
   ],
-  "homepage": "https://neurips.cc/",
+  "homepage": "https://cvpr.thecvf.com/",
   "submission": "cfp",
   "cfp": {
     "adapter": "declarative",
-    "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+    "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
     "allowedHosts": [
-      "neurips.cc"
+      "cvpr.thecvf.com"
     ],
     "edition": {
-      "year": 2026,
-      "label": "NeurIPS 2026"
+      "year": 2027,
+      "label": "CVPR 2027"
     },
     "timezone": {
       "label": "AoE",
@@ -42,15 +42,23 @@
         "milestones": [
           {
             "type": "abstract",
-            "pattern": "Abstract submission deadline:\\s*{{DATE}}"
+            "pattern": "Paper Registration Deadline\\*?:[\\s\\S]{0,160}?Final Decisions:\\s*{{DATE}}",
+            "label": {
+              "ko": "논문 등록",
+              "en": "Paper registration"
+            }
           },
           {
             "type": "paper",
-            "pattern": "Full paper submission deadline, including all supplementary materials:\\s*{{DATE}}"
+            "pattern": "The submission deadline is\\s*{{DATE}}"
           },
           {
-            "type": "notification",
-            "pattern": "Author notification:\\s*{{DATE}}"
+            "type": "other",
+            "pattern": "Supplementary materials can be submitted until\\s*{{DATE}}",
+            "label": {
+              "ko": "보충 자료 제출",
+              "en": "Supplementary materials"
+            }
           }
         ]
       }

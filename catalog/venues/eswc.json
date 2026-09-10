@@ -1,0 +1,63 @@
+{
+  "id": "eswc",
+  "acronym": "ESWC",
+  "name": "European Semantic Web Conference",
+  "type": "conference",
+  "fields": [
+    "column-type-annotation",
+    "semantic-table-interpretation",
+    "semantic-dependency-modeling",
+    "semantic-data-management"
+  ],
+  "topics": [
+    "Column Type Annotation",
+    "Semantic Table Interpretation",
+    "Semantic Dependency Modeling (data and language)",
+    "Semantic Data Management"
+  ],
+  "homepage": "https://2026.eswc-conferences.org/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://2026.eswc-conferences.org/calls/papers-research-track/",
+    "allowedHosts": [
+      "2026.eswc-conferences.org"
+    ],
+    "edition": {
+      "year": 2026,
+      "label": "ESWC 2026"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "main",
+        "label": {
+          "ko": "본 논문",
+          "en": "Main papers"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "abstract",
+            "pattern": "Abstract Submission\\s*{{DATE}}"
+          },
+          {
+            "type": "paper",
+            "pattern": "Full Paper Submission\\s*{{DATE}}"
+          },
+          {
+            "type": "notification",
+            "pattern": "Notification to Authors\\s*{{DATE}}"
+          },
+          {
+            "type": "camera-ready",
+            "pattern": "Camera-Ready Papers Due\\s*{{DATE}}"
+          }
+        ]
+      }
+    ]
+  }
+}

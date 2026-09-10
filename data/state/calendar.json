@@ -1,602 +1,1072 @@
 {
-  "asplos/asplos-2027/april/full/paper": {
-    "sequence": 2,
-    "fingerprint": "2026-04-15T23:59:00-12:00|ASPLOS 2027 · 4월 사이클 논문 마감|CONFIRMED",
+  "acl/acl-2026/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-01-05T23:59:00-12:00|ACL 2026 · 논문 마감|CONFIRMED",
     "cancelledAt": null
+  },
+  "acl/acl-2026/main/full/other": {
+    "sequence": 0,
+    "fingerprint": "2026-03-14T23:59:00-12:00|ACL 2026 · ACL 커밋 마감 (ARR 심사 후)|CONFIRMED",
+    "cancelledAt": null
+  },
+  "acl/acl-2026/main/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2026-04-04T23:59:00-12:00|ACL 2026 · 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "acl/acl-2026/main/full/camera-ready": {
+    "sequence": 0,
+    "fingerprint": "2026-04-19T23:59:00-12:00|ACL 2026 · 최종본 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "bento/bento-2026/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-09-05T23:59:00-12:00|BeNTo 2026 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "bento/bento-2026/main/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2026-09-28T23:59:00-12:00|BeNTo 2026 · 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "cikm/cikm-2026/main/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-05-16T23:59:00-12:00|CIKM 2026 · 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "cikm/cikm-2026/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-05-23T23:59:00-12:00|CIKM 2026 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "cikm/cikm-2026/main/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2026-08-07T23:59:00-12:00|CIKM 2026 · 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "cikm/cikm-2026/main/full/camera-ready": {
+    "sequence": 0,
+    "fingerprint": "2026-08-23T23:59:00-12:00|CIKM 2026 · 최종본 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "coling/coling-2027/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-10-12T23:59:00-12:00|COLING 2027 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "coling/coling-2027/main/full/other": {
+    "sequence": 0,
+    "fingerprint": "2026-12-23T23:59:00-12:00|COLING 2027 · COLING 커밋 마감 (ARR 심사 후)|CONFIRMED",
+    "cancelledAt": null
+  },
+  "coling/coling-2027/main/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2027-02-10T23:59:00-12:00|COLING 2027 · 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "corl/corl-2026/main/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-05-25T23:59:00-12:00|CoRL 2026 · 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "corl/corl-2026/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-05-28T23:59:00-12:00|CoRL 2026 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "corl/corl-2026/main/full/camera-ready": {
+    "sequence": 0,
+    "fingerprint": "2026-10-12T23:59:00-12:00|CoRL 2026 · 최종본 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "cvpr/cvpr-2027/main/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-11-10T23:59:00-12:00|CVPR 2027 · 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "cvpr/cvpr-2027/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-11-16T23:59:00-12:00|CVPR 2027 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "cvpr/cvpr-2027/main/full/other": {
+    "sequence": 0,
+    "fingerprint": "2026-11-23T23:59:00-12:00|CVPR 2027 · 보충 자료 제출|CONFIRMED",
+    "cancelledAt": null
+  },
+  "emnlp/emnlp-2026/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-05-25T23:59:00-12:00|EMNLP 2026 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "emnlp/emnlp-2026/main/full/other": {
+    "sequence": 0,
+    "fingerprint": "2026-08-02T23:59:00-12:00|EMNLP 2026 · EMNLP 커밋 마감 (ARR 심사 후)|CONFIRMED",
+    "cancelledAt": null
+  },
+  "emnlp/emnlp-2026/main/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2026-08-20T23:59:00-12:00|EMNLP 2026 · 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "emnlp/emnlp-2026/main/full/camera-ready": {
+    "sequence": 0,
+    "fingerprint": "2026-08-30T23:59:00-12:00|EMNLP 2026 · 최종본 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "eswc/eswc-2026/main/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2025-11-27T23:59:00-12:00|ESWC 2026 · 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "eswc/eswc-2026/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2025-12-04T23:59:00-12:00|ESWC 2026 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "eswc/eswc-2026/main/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2026-02-12T23:59:00-12:00|ESWC 2026 · 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "eswc/eswc-2026/main/full/camera-ready": {
+    "sequence": 0,
+    "fingerprint": "2026-03-11T23:59:00-12:00|ESWC 2026 · 최종본 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "icde/icde-2027/round-1/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-06-11T17:00:00-07:00|ICDE 2027 · 연구 트랙 1차 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "icde/icde-2027/round-1/full/camera-ready": {
+    "sequence": 0,
+    "fingerprint": "2026-10-10T17:00:00-07:00|ICDE 2027 · 연구 트랙 1차 최종본 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "icde/icde-2027/round-2/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-11-11T17:00:00-08:00|ICDE 2027 · 연구 트랙 2차 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "icde/icde-2027/round-2/full/camera-ready": {
+    "sequence": 0,
+    "fingerprint": "2027-03-10T17:00:00-08:00|ICDE 2027 · 연구 트랙 2차 최종본 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "iclr/iclr-2027/main/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-09-18T23:59:00-12:00|ICLR 2027 · 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "iclr/iclr-2027/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-09-25T23:59:00-12:00|ICLR 2027 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "icml/icml-2026/main/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-01-23T23:59:00-12:00|ICML 2026 · 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "icml/icml-2026/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-01-28T23:59:00-12:00|ICML 2026 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "icra/icra-2027/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-09-15T23:59:00-08:00|ICRA 2027 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "iswc/iswc-2026/research/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-05-02T23:59:00-12:00|ISWC 2026 · 연구 트랙 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "iswc/iswc-2026/research/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-05-07T23:59:00-12:00|ISWC 2026 · 연구 트랙 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "iswc/iswc-2026/research/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2026-07-16T23:59:00-12:00|ISWC 2026 · 연구 트랙 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "iswc/iswc-2026/research/full/camera-ready": {
+    "sequence": 0,
+    "fingerprint": "2026-08-06T23:59:00-12:00|ISWC 2026 · 연구 트랙 최종본 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "kdd/kdd-2027/cycle-1/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-07-19T23:59:00-12:00|KDD 2027 · 연구 트랙 1차 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "kdd/kdd-2027/cycle-1/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-07-26T23:59:00-12:00|KDD 2027 · 연구 트랙 1차 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "kdd/kdd-2027/cycle-1/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2026-11-14T23:59:00-12:00|KDD 2027 · 연구 트랙 1차 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "naacl/naacl-2027/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-10-12T23:59:00-12:00|NAACL 2027 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "naacl/naacl-2027/main/full/other": {
+    "sequence": 0,
+    "fingerprint": "2026-12-23T23:59:00-12:00|NAACL 2027 · NAACL 커밋 마감 (ARR 심사 후)|CONFIRMED",
+    "cancelledAt": null
+  },
+  "naacl/naacl-2027/main/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2027-02-10T23:59:00-12:00|NAACL 2027 · 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "neurips/neurips-2026/main/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-05-04T23:59:00-12:00|NeurIPS 2026 · 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "neurips/neurips-2026/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-05-06T23:59:00-12:00|NeurIPS 2026 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "neurips/neurips-2026/main/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2026-09-24T23:59:00-12:00|NeurIPS 2026 · 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "rss/rss-2026/main/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-01-23T23:59:00-12:00|RSS 2026 · 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "rss/rss-2026/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-01-30T23:59:00-12:00|RSS 2026 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "rss/rss-2026/main/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2026-04-27T23:59:00-12:00|RSS 2026 · 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "rss/rss-2026/main/full/camera-ready": {
+    "sequence": 0,
+    "fingerprint": "2026-05-11T23:59:00-12:00|RSS 2026 · 최종본 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "scaling-h2r/scaling-h2r-2026/main/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-10-07T23:59:00-12:00|Scaling H2R 2026 · 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "sigmod/sigmod-2027/round-1/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-01-10T23:59:00-12:00|SIGMOD 2027 · 연구 트랙 1차 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "sigmod/sigmod-2027/round-1/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-01-17T23:59:00-12:00|SIGMOD 2027 · 연구 트랙 1차 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "sigmod/sigmod-2027/round-2/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-04-10T23:59:00-12:00|SIGMOD 2027 · 연구 트랙 2차 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "sigmod/sigmod-2027/round-2/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-04-17T23:59:00-12:00|SIGMOD 2027 · 연구 트랙 2차 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "sigmod/sigmod-2027/round-3/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-07-10T23:59:00-12:00|SIGMOD 2027 · 연구 트랙 3차 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "sigmod/sigmod-2027/round-3/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-07-17T23:59:00-12:00|SIGMOD 2027 · 연구 트랙 3차 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "sigmod/sigmod-2027/round-4/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-10-10T23:59:00-12:00|SIGMOD 2027 · 연구 트랙 4차 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "sigmod/sigmod-2027/round-4/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-10-17T23:59:00-12:00|SIGMOD 2027 · 연구 트랙 4차 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-04/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-03-25T17:00:00-07:00|VLDB 2027 · 2026-04 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-04/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-04-01T17:00:00-07:00|VLDB 2027 · 2026-04 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-05/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-04-25T17:00:00-07:00|VLDB 2027 · 2026-05 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-05/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-05-01T17:00:00-07:00|VLDB 2027 · 2026-05 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-06/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-05-25T17:00:00-07:00|VLDB 2027 · 2026-06 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-06/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-06-01T17:00:00-07:00|VLDB 2027 · 2026-06 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-07/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-06-25T17:00:00-07:00|VLDB 2027 · 2026-07 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-07/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-07-01T17:00:00-07:00|VLDB 2027 · 2026-07 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-08/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-07-25T17:00:00-07:00|VLDB 2027 · 2026-08 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-08/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-08-01T17:00:00-07:00|VLDB 2027 · 2026-08 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-09/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-08-25T17:00:00-07:00|VLDB 2027 · 2026-09 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-09/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-09-01T17:00:00-07:00|VLDB 2027 · 2026-09 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-10/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-09-25T17:00:00-07:00|VLDB 2027 · 2026-10 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-10/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-10-01T17:00:00-07:00|VLDB 2027 · 2026-10 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-11/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-10-25T17:00:00-07:00|VLDB 2027 · 2026-11 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-11/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-11-01T17:00:00-08:00|VLDB 2027 · 2026-11 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-12/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-11-25T17:00:00-08:00|VLDB 2027 · 2026-12 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2026-12/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-12-01T17:00:00-08:00|VLDB 2027 · 2026-12 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2027-01/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-12-25T17:00:00-08:00|VLDB 2027 · 2027-01 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2027-01/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2027-01-01T17:00:00-08:00|VLDB 2027 · 2027-01 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2027-02/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2027-01-25T17:00:00-08:00|VLDB 2027 · 2027-02 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2027-02/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2027-02-01T17:00:00-08:00|VLDB 2027 · 2027-02 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2027-03/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2027-02-25T17:00:00-08:00|VLDB 2027 · 2027-03 투고 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "vldb/vldb-2027/month-2027-03/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2027-03-01T17:00:00-08:00|VLDB 2027 · 2027-03 투고 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "www/www-2027/full/full/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-10-18T23:59:00-12:00|WWW 2027 · 정규 논문 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "www/www-2027/full/full/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-10-25T23:59:00-12:00|WWW 2027 · 정규 논문 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "www/www-2027/full/full/notification": {
+    "sequence": 0,
+    "fingerprint": "2027-01-04T23:59:00-12:00|WWW 2027 · 정규 논문 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "www/www-2027/full/full/camera-ready": {
+    "sequence": 0,
+    "fingerprint": "2027-01-31T23:59:00-12:00|WWW 2027 · 정규 논문 최종본 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "www/www-2027/short/short/abstract": {
+    "sequence": 0,
+    "fingerprint": "2026-11-09T23:59:00-12:00|WWW 2027 · 단편 논문 단편 초록 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "www/www-2027/short/short/paper": {
+    "sequence": 0,
+    "fingerprint": "2026-11-16T23:59:00-12:00|WWW 2027 · 단편 논문 단편 논문 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "www/www-2027/short/short/notification": {
+    "sequence": 0,
+    "fingerprint": "2027-01-04T23:59:00-12:00|WWW 2027 · 단편 논문 단편 결과 통보|CONFIRMED",
+    "cancelledAt": null
+  },
+  "www/www-2027/short/short/camera-ready": {
+    "sequence": 0,
+    "fingerprint": "2027-01-31T23:59:00-12:00|WWW 2027 · 단편 논문 단편 최종본 마감|CONFIRMED",
+    "cancelledAt": null
+  },
+  "asplos/asplos-2027/april/full/paper": {
+    "sequence": 3,
+    "fingerprint": "2026-04-15T23:59:00-12:00|ASPLOS 2027 · 4월 사이클 논문 마감|CONFIRMED",
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "asplos/asplos-2027/april/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-07-27T23:59:00-12:00|ASPLOS 2027 · 4월 사이클 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "asplos/asplos-2027/september/full/paper": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-09-09T23:59:00-12:00|ASPLOS 2027 · 9월 사이클 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "asplos/asplos-2027/september/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-12-21T23:59:00-12:00|ASPLOS 2027 · 9월 사이클 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ccgrid/ccgrid-2027/main/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-11-24T23:59:00-12:00|CCGrid 2027 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ccgrid/ccgrid-2027/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-12-01T23:59:00-12:00|CCGrid 2027 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ccgrid/ccgrid-2027/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2027-02-01T23:59:00-12:00|CCGrid 2027 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ccgrid/ccgrid-2027/main/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2027-03-16T23:59:00-12:00|CCGrid 2027 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "cluster/cluster-2026/main/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-07T23:59:00-12:00|CLUSTER 2026 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "cluster/cluster-2026/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-07T23:59:00-12:00|CLUSTER 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "cluster/cluster-2026/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-07-05T23:59:00-12:00|CLUSTER 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "cluster/cluster-2026/main/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-08-06T23:59:00-12:00|CLUSTER 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "eesp/eesp-2026/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-08-05T23:59:00-12:00|EESP 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "eesp/eesp-2026/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-09-02T23:59:00-12:00|EESP 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "eesp/eesp-2026/main/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-09-25T23:59:00-12:00|EESP 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "euro-par/euro-par-2026/main/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-03-06T23:59:00-12:00|Euro-Par 2026 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "euro-par/euro-par-2026/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-03-13T23:59:00-12:00|Euro-Par 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "euro-par/euro-par-2026/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-04-30T23:59:00-12:00|Euro-Par 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "euro-par/euro-par-2026/main/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-22T23:59:00-12:00|Euro-Par 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "eurosys/eurosys-2027/spring/full/abstract": {
-    "sequence": 1,
+    "sequence": 2,
     "fingerprint": "2026-05-07T23:59:00-12:00|EuroSys 2027 · 봄 초록 마감|TENTATIVE",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "eurosys/eurosys-2027/spring/full/paper": {
-    "sequence": 1,
+    "sequence": 2,
     "fingerprint": "2026-05-14T23:59:00-12:00|EuroSys 2027 · 봄 논문 마감|TENTATIVE",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "eurosys/eurosys-2027/spring/full/notification": {
-    "sequence": 1,
+    "sequence": 2,
     "fingerprint": "2026-08-21T23:59:00-12:00|EuroSys 2027 · 봄 결과 통보|TENTATIVE",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "eurosys/eurosys-2027/spring/full/camera-ready": {
-    "sequence": 1,
+    "sequence": 2,
     "fingerprint": "2026-09-25T23:59:00-12:00|EuroSys 2027 · 봄 최종본 마감|TENTATIVE",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "eurosys/eurosys-2027/fall/full/abstract": {
-    "sequence": 1,
+    "sequence": 2,
     "fingerprint": "2026-09-17T23:59:00-12:00|EuroSys 2027 · 가을 초록 마감|TENTATIVE",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "eurosys/eurosys-2027/fall/full/paper": {
-    "sequence": 1,
+    "sequence": 2,
     "fingerprint": "2026-09-24T23:59:00-12:00|EuroSys 2027 · 가을 논문 마감|TENTATIVE",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "eurosys/eurosys-2027/fall/full/notification": {
-    "sequence": 1,
+    "sequence": 2,
     "fingerprint": "2027-01-29T23:59:00-12:00|EuroSys 2027 · 가을 결과 통보|TENTATIVE",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "eurosys/eurosys-2027/fall/full/camera-ready": {
-    "sequence": 1,
+    "sequence": 2,
     "fingerprint": "2027-03-05T23:59:00-12:00|EuroSys 2027 · 가을 최종본 마감|TENTATIVE",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "hotcarbon/hotcarbon-2026/main/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-11T23:59:00-12:00|HotCarbon 2026 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "hotcarbon/hotcarbon-2026/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-18T23:59:00-12:00|HotCarbon 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "hotcarbon/hotcarbon-2026/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-06-19T23:59:00-12:00|HotCarbon 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "hotinfra/hotinfra-2026/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-30T23:59:00-12:00|HotInfra 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "hotinfra/hotinfra-2026/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-06-06T23:59:00-12:00|HotInfra 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "hotinfra/hotinfra-2026/main/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-06-15T23:59:00-12:00|HotInfra 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "hpdc/hpdc-2026/main/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-01-29T23:59:00-12:00|HPDC 2026 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "hpdc/hpdc-2026/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-02-05T23:59:00-12:00|HPDC 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "hpdc/hpdc-2026/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-03-31T23:59:00-12:00|HPDC 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "hpdc/hpdc-2026/main/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-04-30T23:59:00-12:00|HPDC 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "icdcs/icdcs-2026/main/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-01-21T23:59:00-12:00|ICDCS 2026 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "icdcs/icdcs-2026/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-01-21T23:59:00-12:00|ICDCS 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "icdcs/icdcs-2026/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-04-27T23:59:00-12:00|ICDCS 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "icdcs/icdcs-2026/main/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-14T23:59:00-12:00|ICDCS 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "icpp/icpp-2026/main/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-04-24T23:59:00-12:00|ICPP 2026 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "icpp/icpp-2026/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-01T23:59:00-12:00|ICPP 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "icpp/icpp-2026/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-06-30T23:59:00-12:00|ICPP 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "icpp/icpp-2026/main/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-07-30T23:59:00-12:00|ICPP 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ics/ics-2026/cycle-1/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2025-12-09T23:59:00-12:00|ICS 2026 · 사이클 1 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ics/ics-2026/cycle-1/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2025-12-16T23:59:00-12:00|ICS 2026 · 사이클 1 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ics/ics-2026/cycle-1/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-02-24T23:59:00-12:00|ICS 2026 · 사이클 1 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ics/ics-2026/cycle-1/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-03-24T23:59:00-12:00|ICS 2026 · 사이클 1 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ics/ics-2026/cycle-2/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-02-02T23:59:00-12:00|ICS 2026 · 사이클 2 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ics/ics-2026/cycle-2/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-02-09T23:59:00-12:00|ICS 2026 · 사이클 2 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ics/ics-2026/cycle-2/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-04-06T23:59:00-12:00|ICS 2026 · 사이클 2 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ics/ics-2026/cycle-2/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-06T23:59:00-12:00|ICS 2026 · 사이클 2 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ieee-cloud/ieee-cloud-2026/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-03-22T23:59:00-12:00|IEEE CLOUD 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ieee-cloud/ieee-cloud-2026/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-10T23:59:00-12:00|IEEE CLOUD 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ieee-cloud/ieee-cloud-2026/main/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-31T23:59:00-12:00|IEEE CLOUD 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "igsc/igsc-2026/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-04-07T23:59:00-12:00|IGSC 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "igsc/igsc-2026/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-04-30T23:59:00-12:00|IGSC 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "igsc/igsc-2026/main/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-15T23:59:00-12:00|IGSC 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ipdps/ipdps-2027/main/full/abstract": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-10-01T23:59:00-12:00|IPDPS 2027 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ipdps/ipdps-2027/main/full/paper": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-10-08T23:59:00-12:00|IPDPS 2027 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ipdps/ipdps-2027/main/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2027-02-02T23:59:00-12:00|IPDPS 2027 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ipdps/ipdps-2027/main/full/camera-ready": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2027-02-20T23:59:00-12:00|IPDPS 2027 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "micro/micro-2026/main/full/abstract": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-03-31T23:59:00-04:00|MICRO 2026 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "micro/micro-2026/main/full/paper": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-04-07T23:59:00-04:00|MICRO 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "micro/micro-2026/main/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-07-07T23:59:00-04:00|MICRO 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "micro/micro-2026/main/full/camera-ready": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-09-11T23:59:00-04:00|MICRO 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "middleware/middleware-2026/winter/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2025-12-09T23:59:00-12:00|Middleware 2026 · 겨울 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "middleware/middleware-2026/winter/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2025-12-12T23:59:00-12:00|Middleware 2026 · 겨울 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "middleware/middleware-2026/winter/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-03-06T23:59:00-12:00|Middleware 2026 · 겨울 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "middleware/middleware-2026/winter/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-04-24T23:59:00-12:00|Middleware 2026 · 겨울 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "middleware/middleware-2026/summer/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-05-29T23:59:00-12:00|Middleware 2026 · 여름 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "middleware/middleware-2026/summer/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-06-05T23:59:00-12:00|Middleware 2026 · 여름 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "middleware/middleware-2026/summer/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-08-28T23:59:00-12:00|Middleware 2026 · 여름 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "middleware/middleware-2026/summer/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-10-16T23:59:00-12:00|Middleware 2026 · 여름 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "nsdi/nsdi-2027/spring/full/abstract": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-04-16T23:59:00-04:00|NSDI 2027 · 봄 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "nsdi/nsdi-2027/spring/full/paper": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-04-23T23:59:00-04:00|NSDI 2027 · 봄 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "nsdi/nsdi-2027/spring/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-07-23T23:59:00-04:00|NSDI 2027 · 봄 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "nsdi/nsdi-2027/spring/full/camera-ready": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-10-20T23:59:00-04:00|NSDI 2027 · 봄 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "nsdi/nsdi-2027/fall/full/abstract": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-09-10T23:59:00-04:00|NSDI 2027 · 가을 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "nsdi/nsdi-2027/fall/full/paper": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-09-17T23:59:00-04:00|NSDI 2027 · 가을 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "nsdi/nsdi-2027/fall/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-12-08T23:59:00-04:00|NSDI 2027 · 가을 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "nsdi/nsdi-2027/fall/full/camera-ready": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2027-03-04T23:59:00-04:00|NSDI 2027 · 가을 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "osdi/osdi-2027/main/full/abstract": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-12-01T17:59:00-05:00|OSDI 2027 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "osdi/osdi-2027/main/full/paper": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-12-08T17:59:00-05:00|OSDI 2027 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "osdi/osdi-2027/main/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2027-03-16T17:59:00-05:00|OSDI 2027 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "osdi/osdi-2027/main/full/camera-ready": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2027-06-03T17:59:00-05:00|OSDI 2027 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ppopp/ppopp-2027/main/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-08-03T23:59:00-12:00|PPoPP 2027 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ppopp/ppopp-2027/main/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-10-26T23:59:00-12:00|PPoPP 2027 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "ppopp/ppopp-2027/main/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-12-18T23:59:00-12:00|PPoPP 2027 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigcomm/sigcomm-2026/main/full/abstract": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-01-30T23:59:00-12:00|SIGCOMM 2026 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigcomm/sigcomm-2026/main/full/paper": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-02-06T23:59:00-12:00|SIGCOMM 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigcomm/sigcomm-2026/main/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-05-11T23:59:00-12:00|SIGCOMM 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigcomm/sigcomm-2026/main/full/camera-ready": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-07-03T23:59:00-12:00|SIGCOMM 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigmetrics/sigmetrics-2027/summer/full/abstract": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-07-03T23:59:00-12:00|SIGMETRICS 2027 · 여름 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigmetrics/sigmetrics-2027/summer/full/paper": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-07-10T23:59:00-12:00|SIGMETRICS 2027 · 여름 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigmetrics/sigmetrics-2027/summer/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-09-09T23:59:00-12:00|SIGMETRICS 2027 · 여름 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigmetrics/sigmetrics-2027/fall/full/abstract": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-10-02T23:59:00-12:00|SIGMETRICS 2027 · 가을 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigmetrics/sigmetrics-2027/fall/full/paper": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-10-09T23:59:00-12:00|SIGMETRICS 2027 · 가을 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigmetrics/sigmetrics-2027/fall/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-12-09T23:59:00-12:00|SIGMETRICS 2027 · 가을 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigmetrics/sigmetrics-2027/winter/full/abstract": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2027-01-04T23:59:00-12:00|SIGMETRICS 2027 · 겨울 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigmetrics/sigmetrics-2027/winter/full/paper": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2027-01-11T23:59:00-12:00|SIGMETRICS 2027 · 겨울 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sigmetrics/sigmetrics-2027/winter/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2027-03-10T23:59:00-12:00|SIGMETRICS 2027 · 겨울 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "socc/socc-2026/round-1/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-02-06T23:59:00-12:00|SoCC 2026 · 1차 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "socc/socc-2026/round-1/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-02-13T23:59:00-12:00|SoCC 2026 · 1차 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "socc/socc-2026/round-1/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-04-29T23:59:00-12:00|SoCC 2026 · 1차 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "socc/socc-2026/round-2/full/abstract": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-07-07T23:59:00-12:00|SoCC 2026 · 2차 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "socc/socc-2026/round-2/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-07-14T23:59:00-12:00|SoCC 2026 · 2차 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "socc/socc-2026/round-2/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-09-26T23:59:00-12:00|SoCC 2026 · 2차 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "socc/socc-2026/round-2/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-10-17T23:59:00-12:00|SoCC 2026 · 2차 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sosp/sosp-2026/main/full/abstract": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-03-26T23:59:00-12:00|SOSP 2026 · 초록 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sosp/sosp-2026/main/full/paper": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-04-01T23:59:00-12:00|SOSP 2026 · 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sosp/sosp-2026/main/full/notification": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-07-03T23:59:00-12:00|SOSP 2026 · 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sosp/sosp-2026/main/full/camera-ready": {
-    "sequence": 2,
+    "sequence": 3,
     "fingerprint": "2026-08-28T23:59:00-12:00|SOSP 2026 · 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sustain-hpc/sustain-hpc-2026/long/full/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-07-10T23:59:00-12:00|Sustain-HPC 2026 · 장편 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sustain-hpc/sustain-hpc-2026/long/full/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-07-20T23:59:00-12:00|Sustain-HPC 2026 · 장편 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sustain-hpc/sustain-hpc-2026/long/full/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-07-30T23:59:00-12:00|Sustain-HPC 2026 · 장편 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sustain-hpc/sustain-hpc-2026/short/short/paper": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-07-20T23:59:00-12:00|Sustain-HPC 2026 · 단편 단편 논문 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sustain-hpc/sustain-hpc-2026/short/short/notification": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-07-31T23:59:00-12:00|Sustain-HPC 2026 · 단편 단편 결과 통보|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   },
   "sustain-hpc/sustain-hpc-2026/short/short/camera-ready": {
-    "sequence": 0,
+    "sequence": 1,
     "fingerprint": "2026-08-07T23:59:00-12:00|Sustain-HPC 2026 · 단편 단편 최종본 마감|CONFIRMED",
-    "cancelledAt": null
+    "cancelledAt": "2026-09-10T07:28:43Z"
   }
 }

@@ -1,0 +1,53 @@
+{
+  "id": "icra",
+  "acronym": "ICRA",
+  "name": "IEEE International Conference on Robotics and Automation",
+  "type": "conference",
+  "fields": [
+    "data-centric-robotics",
+    "diffusion-models",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Data-Centric Robotics",
+    "Diffusion Models",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://2027.ieee-icra.org/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://2027.ieee-icra.org/announcements/call-for-technical-papers/",
+    "allowedHosts": [
+      "2027.ieee-icra.org"
+    ],
+    "edition": {
+      "year": 2027,
+      "label": "ICRA 2027"
+    },
+    "timezone": {
+      "label": "PST",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "main",
+        "label": {
+          "ko": "본 논문",
+          "en": "Main papers"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "paper",
+            "pattern": "Submissions are due by\\s*{{DATE}}"
+          }
+        ]
+      }
+    ]
+  },
+  "note": {
+    "ko": "CFP에 명시된 PST(UTC−08:00)를 그대로 적용했습니다. 다른 공식 안내는 Pacific time으로 표기하므로 제출 시스템의 시각도 확인하세요.",
+    "en": "Uses PST (UTC−08:00) as explicitly printed in the CFP. Another official page says Pacific time; also confirm the submission system clock."
+  }
+}

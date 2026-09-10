@@ -4,17 +4,50 @@
   "name": "International Conference on Machine Learning",
   "type": "conference",
   "fields": [
-    "machine-learning"
+    "diffusion-models",
+    "hyperspherical-representation-learning",
+    "multimodal-representation-learning"
   ],
-  "topics": [],
+  "topics": [
+    "Diffusion Models",
+    "Hyperspherical Representation Learning",
+    "Multimodal Representation Learning"
+  ],
   "homepage": "https://icml.cc/",
   "submission": "cfp",
   "cfp": {
-    "adapter": "none",
-    "url": "https://icml.cc/Conferences/2026/Dates"
-  },
-  "note": {
-    "ko": "공식 일정 페이지가 JavaScript로 렌더링되어 자동 추적 불가.",
-    "en": "Official dates page is JavaScript-rendered; not tracked automatically."
+    "adapter": "declarative",
+    "url": "https://icml.cc/Conferences/2026/CallForPapers",
+    "allowedHosts": [
+      "icml.cc"
+    ],
+    "edition": {
+      "year": 2026,
+      "label": "ICML 2026"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "main",
+        "label": {
+          "ko": "본 논문",
+          "en": "Main papers"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "abstract",
+            "pattern": "Abstract submission deadline:\\s*{{DATE}}"
+          },
+          {
+            "type": "paper",
+            "pattern": "Full paper submission deadline:\\s*{{DATE}}"
+          }
+        ]
+      }
+    ]
   }
 }

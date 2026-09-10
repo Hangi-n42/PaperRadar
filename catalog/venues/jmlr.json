@@ -1,0 +1,23 @@
+{
+  "id": "jmlr",
+  "acronym": "JMLR",
+  "name": "Journal of Machine Learning Research",
+  "type": "journal",
+  "fields": [
+    "diffusion-models",
+    "hyperspherical-representation-learning",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Diffusion Models",
+    "Hyperspherical Representation Learning",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://www.jmlr.org/author-info.html",
+  "submission": "rolling",
+  "cfp": null,
+  "note": {
+    "ko": "일반 논문 상시 투고입니다. 특집호·학회 연계 마감은 포함하지 않습니다.",
+    "en": "Rolling regular-paper submissions. Special-issue and conference-presentation deadlines are not included."
+  }
+}

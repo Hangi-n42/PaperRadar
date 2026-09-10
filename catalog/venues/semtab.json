@@ -1,0 +1,32 @@
+{
+  "id": "semtab",
+  "acronym": "SemTab",
+  "name": "Semantic Web Challenge on Tabular Data to Knowledge Graph Matching",
+  "type": "workshop",
+  "fields": [
+    "column-type-annotation",
+    "semantic-table-interpretation",
+    "semantic-dependency-modeling",
+    "semantic-data-management"
+  ],
+  "topics": [
+    "Column Type Annotation",
+    "Semantic Table Interpretation",
+    "Semantic Dependency Modeling (data and language)",
+    "Semantic Data Management"
+  ],
+  "homepage": "https://www.cs.ox.ac.uk/isg/challenges/sem-tab/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "none",
+    "url": "https://www.cs.ox.ac.uk/isg/challenges/sem-tab/",
+    "allowedHosts": [
+      "www.cs.ox.ac.uk"
+    ]
+  },
+  "parent": "ISWC",
+  "note": {
+    "ko": "표·컬럼 의미 주석 벤치마크 챌린지입니다. 사이트 유형상 워크숍으로 분류했습니다. 2026 회차의 공식 공지를 확인하지 못해 날짜를 비워두었습니다.",
+    "en": "Tabular annotation benchmark challenge, represented as a workshop in this catalog. No verified official 2026 call; dates are left empty."
+  }
+}

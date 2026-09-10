@@ -1,0 +1,60 @@
+{
+  "id": "corl",
+  "acronym": "CoRL",
+  "name": "Conference on Robot Learning",
+  "type": "conference",
+  "fields": [
+    "data-centric-robotics",
+    "diffusion-models",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Data-Centric Robotics",
+    "Diffusion Models",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://2026.corl.org/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "manual",
+    "url": "https://2026.corl.org/contributions/instruction-for-authors",
+    "allowedHosts": [
+      "2026.corl.org"
+    ],
+    "edition": {
+      "year": 2026,
+      "label": "CoRL 2026"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "main",
+        "track": "full",
+        "milestones": [
+          {
+            "type": "abstract",
+            "date": "2026-05-25",
+            "verifiedAt": "2026-09-10"
+          },
+          {
+            "type": "paper",
+            "date": "2026-05-28",
+            "verifiedAt": "2026-09-10"
+          },
+          {
+            "type": "camera-ready",
+            "date": "2026-10-12",
+            "verifiedAt": "2026-09-10"
+          }
+        ]
+      }
+    ]
+  },
+  "note": {
+    "ko": "공식 작성자 안내의 임베디드 일정표와 최종본 안내를 2026-09-10에 브라우저로 확인했습니다. 수동 갱신이 필요합니다.",
+    "en": "Embedded dates and camera-ready instructions checked in the official author guide on 2026-09-10. Requires manual updates."
+  }
+}

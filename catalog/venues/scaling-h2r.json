@@ -1,0 +1,54 @@
+{
+  "id": "scaling-h2r",
+  "acronym": "Scaling H2R",
+  "name": "Scaling Laws and Diversity in Human-to-Robot",
+  "type": "workshop",
+  "fields": [
+    "data-centric-robotics",
+    "diffusion-models",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Data-Centric Robotics",
+    "Diffusion Models",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://scaling-h2r-corl.github.io/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://scaling-h2r-corl.github.io/",
+    "allowedHosts": [
+      "scaling-h2r-corl.github.io"
+    ],
+    "edition": {
+      "year": 2026,
+      "label": "Scaling H2R 2026"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "main",
+        "label": {
+          "ko": "본 논문",
+          "en": "Main papers"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "paper",
+            "pattern": "Submission deadline\\s*{{DATE}}"
+          }
+        ]
+      }
+    ]
+  },
+  "parent": "CoRL",
+  "note": {
+    "ko": "CoRL 워크숍입니다. 본 학회 논문 마감과 별개이며 8쪽·4쪽 논문을 받습니다.",
+    "en": "CoRL workshop with separate deadlines; accepts 8-page and 4-page papers."
+  }
+}

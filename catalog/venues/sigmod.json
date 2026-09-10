@@ -1,0 +1,109 @@
+{
+  "id": "sigmod",
+  "acronym": "SIGMOD",
+  "name": "ACM SIGMOD International Conference on Management of Data",
+  "type": "conference",
+  "fields": [
+    "column-type-annotation",
+    "semantic-table-interpretation",
+    "semantic-dependency-modeling",
+    "semantic-data-management"
+  ],
+  "topics": [
+    "Column Type Annotation",
+    "Semantic Table Interpretation",
+    "Semantic Dependency Modeling (data and language)",
+    "Semantic Data Management"
+  ],
+  "homepage": "https://2027.sigmod.org/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://2027.sigmod.org/calls_papers_sigmod_research.shtml",
+    "allowedHosts": [
+      "2027.sigmod.org"
+    ],
+    "edition": {
+      "year": 2027,
+      "label": "SIGMOD 2027"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "round-1",
+        "label": {
+          "ko": "연구 트랙 1차",
+          "en": "Research round 1"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "abstract",
+            "pattern": "RESEARCH PAPER SUBMISSION ROUND 1\\s*\\(All Deadlines are 11:59 PM AoE\\)\\s*{{DATE}}\\s*:\\s*Abstract submission"
+          },
+          {
+            "type": "paper",
+            "pattern": "RESEARCH PAPER SUBMISSION ROUND 1[\\s\\S]{0,170}?{{DATE}}\\s*:\\s*Paper submission"
+          }
+        ]
+      },
+      {
+        "id": "round-2",
+        "label": {
+          "ko": "연구 트랙 2차",
+          "en": "Research round 2"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "abstract",
+            "pattern": "RESEARCH PAPER SUBMISSION ROUND 2\\s*\\(All Deadlines are 11:59 PM AoE\\)\\s*{{DATE}}\\s*:\\s*Abstract submission"
+          },
+          {
+            "type": "paper",
+            "pattern": "RESEARCH PAPER SUBMISSION ROUND 2[\\s\\S]{0,170}?{{DATE}}\\s*:\\s*Paper submission"
+          }
+        ]
+      },
+      {
+        "id": "round-3",
+        "label": {
+          "ko": "연구 트랙 3차",
+          "en": "Research round 3"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "abstract",
+            "pattern": "RESEARCH PAPER SUBMISSION ROUND 3\\s*\\(All Deadlines are 11:59 PM AoE\\)\\s*{{DATE}}\\s*:\\s*Abstract submission"
+          },
+          {
+            "type": "paper",
+            "pattern": "RESEARCH PAPER SUBMISSION ROUND 3[\\s\\S]{0,170}?{{DATE}}\\s*:\\s*Paper submission"
+          }
+        ]
+      },
+      {
+        "id": "round-4",
+        "label": {
+          "ko": "연구 트랙 4차",
+          "en": "Research round 4"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "abstract",
+            "pattern": "RESEARCH PAPER SUBMISSION ROUND 4\\s*\\(All Deadlines are 11:59 PM AoE\\)\\s*{{DATE}}\\s*:\\s*Abstract submission"
+          },
+          {
+            "type": "paper",
+            "pattern": "RESEARCH PAPER SUBMISSION ROUND 4[\\s\\S]{0,170}?{{DATE}}\\s*:\\s*Paper submission"
+          }
+        ]
+      }
+    ]
+  }
+}

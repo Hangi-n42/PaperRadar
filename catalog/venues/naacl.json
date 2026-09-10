@@ -1,0 +1,61 @@
+{
+  "id": "naacl",
+  "acronym": "NAACL",
+  "name": "Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics",
+  "type": "conference",
+  "fields": [
+    "semantic-dependency-modeling",
+    "semantic-table-interpretation",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "semantic dependency parsing",
+    "table understanding",
+    "multimodal NLP"
+  ],
+  "homepage": "https://2027.naacl.org/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://2027.naacl.org/calls/main_conference_papers/",
+    "allowedHosts": [
+      "2027.naacl.org"
+    ],
+    "edition": {
+      "year": 2027,
+      "label": "NAACL 2027"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "main",
+        "track": "full",
+        "milestones": [
+          {
+            "type": "paper",
+            "pattern": "ARR submission deadline \\(long & short papers\\)\\s*{{DATE}}"
+          },
+          {
+            "type": "other",
+            "label": {
+              "ko": "NAACL 커밋 마감 (ARR 심사 후)",
+              "en": "NAACL commitment (after ARR review)"
+            },
+            "pattern": "NAACL commitment deadline\\s*{{DATE}}"
+          },
+          {
+            "type": "notification",
+            "pattern": "Notification of acceptance \\(long & short papers\\)\\s*{{DATE}}"
+          }
+        ]
+      }
+    ]
+  },
+  "note": {
+    "ko": "NAACL과 COLING은 같은 ARR 회차를 사용합니다. 주 투고 학회는 하나만 선택하며 두 학회에 동시 커밋할 수 없습니다. 최종본 날짜는 미확정입니다.",
+    "en": "NAACL and COLING share an ARR cycle. Choose only one primary venue; dual commitment is not allowed. Camera-ready date is not yet confirmed."
+  }
+}

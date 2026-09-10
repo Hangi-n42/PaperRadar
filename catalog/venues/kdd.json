@@ -1,0 +1,67 @@
+{
+  "id": "kdd",
+  "acronym": "KDD",
+  "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+  "type": "conference",
+  "fields": [
+    "column-type-annotation",
+    "semantic-table-interpretation",
+    "semantic-dependency-modeling",
+    "semantic-data-management",
+    "hyperspherical-representation-learning",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Column Type Annotation",
+    "Semantic Table Interpretation",
+    "Semantic Dependency Modeling (data and language)",
+    "Semantic Data Management",
+    "Hyperspherical Representation Learning",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://kdd2027.kdd.org/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+    "allowedHosts": [
+      "kdd2027.kdd.org"
+    ],
+    "edition": {
+      "year": 2027,
+      "label": "KDD 2027"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "cycle-1",
+        "label": {
+          "ko": "연구 트랙 1차",
+          "en": "Research cycle 1"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "abstract",
+            "pattern": "Abstract Deadline:\\s*{{DATE}}"
+          },
+          {
+            "type": "paper",
+            "pattern": "Paper Deadline:\\s*{{DATE}}"
+          },
+          {
+            "type": "notification",
+            "pattern": "Notification:\\s*{{DATE}}"
+          }
+        ]
+      }
+    ]
+  },
+  "note": {
+    "ko": "공식 CFP에 게시된 1차 일정만 등록했습니다. 2차 날짜는 추정하지 않습니다.",
+    "en": "Only cycle 1 dates published in the official CFP are tracked; cycle 2 dates are not inferred."
+  }
+}

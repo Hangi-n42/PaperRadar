@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T19:53:55Z",
+  "updatedAt": "2026-09-10T07:28:43Z",
   "venues": {
     "asplos": {
       "editions": [
@@ -2222,6 +2222,1803 @@
                   "tzOffset": "-12:00",
                   "tzConfirmed": true,
                   "sourceText": "August 7, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "acl": {
+      "editions": [
+        {
+          "id": "acl-2026",
+          "year": 2026,
+          "label": "ACL 2026",
+          "event": null,
+          "source": {
+            "url": "https://2026.aclweb.org/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "2b8adf81be446dfab0a6e73b1ba29d205aebb4fae9ae8ae8bf55079f6cc928a0"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-01-05T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "January 5, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "other",
+                  "label": {
+                    "ko": "ACL 커밋 마감 (ARR 심사 후)",
+                    "en": "ACL commitment (after ARR review)"
+                  },
+                  "state": "dated",
+                  "at": "2026-03-14T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "March 14, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2026-04-04T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "April 4, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "camera-ready",
+                  "state": "dated",
+                  "at": "2026-04-19T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "April 19, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "bento": {
+      "editions": [
+        {
+          "id": "bento-2026",
+          "year": 2026,
+          "label": "BeNTo 2026",
+          "event": null,
+          "source": {
+            "url": "https://bento-neurips.github.io/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "12f007c1d767b1b16817b0e15aa8c78f7d438db0891b3f2cbd0082f32e5284bc"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-09-05T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "Sep 5, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2026-09-28T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "Sep 28, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "cikm": {
+      "editions": [
+        {
+          "id": "cikm-2026",
+          "year": 2026,
+          "label": "CIKM 2026",
+          "event": null,
+          "source": {
+            "url": "https://cikm2026.diag.uniroma1.it/full-research-papers/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "c96cceebc9359df5f3dd0f71d85457bd8b29492159f826533a72a2f8447d7101"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-05-16T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "May 16, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-05-23T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "May 23, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2026-08-07T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "August 7, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "camera-ready",
+                  "state": "dated",
+                  "at": "2026-08-23T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "August 23, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "coling": {
+      "editions": [
+        {
+          "id": "coling-2027",
+          "year": 2027,
+          "label": "COLING 2027",
+          "event": null,
+          "source": {
+            "url": "https://2027.coling-iccl.org/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "7a5141747f16218cbcac73ad8e3695fef7243c28d5141ed3d190c7b877a80d60"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": "main",
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-10-12T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "Monday October 12, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "other",
+                  "label": {
+                    "ko": "COLING 커밋 마감 (ARR 심사 후)",
+                    "en": "COLING commitment (after ARR review)"
+                  },
+                  "state": "dated",
+                  "at": "2026-12-23T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "Wednesday December 23, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2027-02-10T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "Wednesday February 10, 2027",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "corl": {
+      "editions": [
+        {
+          "id": "corl-2026",
+          "year": 2026,
+          "label": "CoRL 2026",
+          "event": null,
+          "source": {
+            "url": "https://2026.corl.org/contributions/instruction-for-authors",
+            "adapter": "manual",
+            "status": "manual",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": null
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": "main",
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-05-25T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-05-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-05-28T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-05-28",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "camera-ready",
+                  "state": "dated",
+                  "at": "2026-10-12T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-10-12",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "cvpr": {
+      "editions": [
+        {
+          "id": "cvpr-2027",
+          "year": 2027,
+          "label": "CVPR 2027",
+          "event": null,
+          "source": {
+            "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "ce5e0912a45f1e60e06dd332073f7aefb3bc2140aeac967119f74e5e26ab06c8"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "label": {
+                    "ko": "논문 등록",
+                    "en": "Paper registration"
+                  },
+                  "state": "dated",
+                  "at": "2026-11-10T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "Nov 10, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-11-16T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "November 16th, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "other",
+                  "label": {
+                    "ko": "보충 자료 제출",
+                    "en": "Supplementary materials"
+                  },
+                  "state": "dated",
+                  "at": "2026-11-23T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "November 23rd, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "emnlp": {
+      "editions": [
+        {
+          "id": "emnlp-2026",
+          "year": 2026,
+          "label": "EMNLP 2026",
+          "event": null,
+          "source": {
+            "url": "https://2026.emnlp.org/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "870d36e2ab39acac9ff95504f77013bc5c6610858ce3d2f477912f006c2d5887"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-05-25T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "May 25, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "other",
+                  "label": {
+                    "ko": "EMNLP 커밋 마감 (ARR 심사 후)",
+                    "en": "EMNLP commitment (after ARR review)"
+                  },
+                  "state": "dated",
+                  "at": "2026-08-02T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "August 2, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2026-08-20T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "August 20, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "camera-ready",
+                  "state": "dated",
+                  "at": "2026-08-30T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "August 30, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "eswc": {
+      "editions": [
+        {
+          "id": "eswc-2026",
+          "year": 2026,
+          "label": "ESWC 2026",
+          "event": null,
+          "source": {
+            "url": "https://2026.eswc-conferences.org/calls/papers-research-track/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "eb9e19fcc44e836e7df19b291edce73597460d9078fc9b45c52d6db96f7895da"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2025-11-27T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "November 27, 2025",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2025-12-04T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "December 4, 2025",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2026-02-12T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "February 12, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "camera-ready",
+                  "state": "dated",
+                  "at": "2026-03-11T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "March 11, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "icde": {
+      "editions": [
+        {
+          "id": "icde-2027",
+          "year": 2027,
+          "label": "ICDE 2027",
+          "event": null,
+          "source": {
+            "url": "https://icde2027.github.io/important-dates.html",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "e3653b41ab9b0621398a6e2551ef565e6d55776d53f1ae20c53c3cda844bee0f"
+          },
+          "rounds": [
+            {
+              "id": "round-1",
+              "label": {
+                "ko": "연구 트랙 1차",
+                "en": "Research round 1"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-06-11T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "June 11, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "camera-ready",
+                  "state": "dated",
+                  "at": "2026-10-10T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "October 10, 2026",
+                  "verification": "verified"
+                }
+              ]
+            },
+            {
+              "id": "round-2",
+              "label": {
+                "ko": "연구 트랙 2차",
+                "en": "Research round 2"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-11-11T17:00:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "November 11, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "camera-ready",
+                  "state": "dated",
+                  "at": "2027-03-10T17:00:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "March 10, 2027",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "iclr": {
+      "editions": [
+        {
+          "id": "iclr-2027",
+          "year": 2027,
+          "label": "ICLR 2027",
+          "event": null,
+          "source": {
+            "url": "https://iclr.cc/Conferences/2027/AuthorGuidelines",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "4c1eef25e726f4e77574988c5c65430c692c61b17141b6da34fc4baf806add06"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-09-18T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "Sep 18, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-09-25T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "Sep 25, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "icml": {
+      "editions": [
+        {
+          "id": "icml-2026",
+          "year": 2026,
+          "label": "ICML 2026",
+          "event": null,
+          "source": {
+            "url": "https://icml.cc/Conferences/2026/CallForPapers",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "deaacd828de5eb75ca74e2ddac8bc51e9bf69dd502ae239bd1b9379f4616ecc2"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-01-23T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "January 23, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-01-28T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "January 28, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "icra": {
+      "editions": [
+        {
+          "id": "icra-2027",
+          "year": 2027,
+          "label": "ICRA 2027",
+          "event": null,
+          "source": {
+            "url": "https://2027.ieee-icra.org/announcements/call-for-technical-papers/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "44e5ed80d6f6df1954bc4f5e43fe3648393e1ddc43f9f65cf95b4f6bd65d9b38"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-09-15T23:59:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "September 15, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "iswc": {
+      "editions": [
+        {
+          "id": "iswc-2026",
+          "year": 2026,
+          "label": "ISWC 2026",
+          "event": null,
+          "source": {
+            "url": "https://iswc2026.semanticweb.org/#/calls/research",
+            "adapter": "manual",
+            "status": "manual",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": null
+          },
+          "rounds": [
+            {
+              "id": "research",
+              "label": {
+                "ko": "연구 트랙",
+                "en": "Research track"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-05-02T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-05-02",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-05-07T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-05-07",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2026-07-16T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-07-16",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "camera-ready",
+                  "state": "dated",
+                  "at": "2026-08-06T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-08-06",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "kdd": {
+      "editions": [
+        {
+          "id": "kdd-2027",
+          "year": 2027,
+          "label": "KDD 2027",
+          "event": null,
+          "source": {
+            "url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "5fab33b3316269a15bdad5786915bc0b8307af2c4bedd9a1874a65339c34af23"
+          },
+          "rounds": [
+            {
+              "id": "cycle-1",
+              "label": {
+                "ko": "연구 트랙 1차",
+                "en": "Research cycle 1"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-07-19T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "July 19, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-07-26T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "July 26, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2026-11-14T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "November 14, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "naacl": {
+      "editions": [
+        {
+          "id": "naacl-2027",
+          "year": 2027,
+          "label": "NAACL 2027",
+          "event": null,
+          "source": {
+            "url": "https://2027.naacl.org/calls/main_conference_papers/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "d955ff69afc4fb1be6e42f1b7234a9634595c5ced0233ec268b1a4de58026312"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": "main",
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-10-12T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "October 12, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "other",
+                  "label": {
+                    "ko": "NAACL 커밋 마감 (ARR 심사 후)",
+                    "en": "NAACL commitment (after ARR review)"
+                  },
+                  "state": "dated",
+                  "at": "2026-12-23T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "December 23, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2027-02-10T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "February 10, 2027",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "neurips": {
+      "editions": [
+        {
+          "id": "neurips-2026",
+          "year": 2026,
+          "label": "NeurIPS 2026",
+          "event": null,
+          "source": {
+            "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "e888225534f3622d78e62d6ff9deb921fe4fe9b3413a1340125c7c45eac0bc3f"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-05-04T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "May 4, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-05-06T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "May 6, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2026-09-24T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "September 24, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "rss": {
+      "editions": [
+        {
+          "id": "rss-2026",
+          "year": 2026,
+          "label": "RSS 2026",
+          "event": null,
+          "source": {
+            "url": "https://roboticsconference.org/information/cfp/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "8e668ed2d2c140939e3f39e40c465c271dba962d1a45dbdc4e101e520123b445"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-01-23T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "January 23, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-01-30T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "January 30, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2026-04-27T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "April 27, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "camera-ready",
+                  "state": "dated",
+                  "at": "2026-05-11T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "May 11, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "scaling-h2r": {
+      "editions": [
+        {
+          "id": "scaling-h2r-2026",
+          "year": 2026,
+          "label": "Scaling H2R 2026",
+          "event": null,
+          "source": {
+            "url": "https://scaling-h2r-corl.github.io/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "94d0770e61ff87cd7c392bbad0674ae8082df7a7c61c497d88528a2d4a2343ac"
+          },
+          "rounds": [
+            {
+              "id": "main",
+              "label": {
+                "ko": "본 논문",
+                "en": "Main papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-10-07T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "Oct 7, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sigmod": {
+      "editions": [
+        {
+          "id": "sigmod-2027",
+          "year": 2027,
+          "label": "SIGMOD 2027",
+          "event": null,
+          "source": {
+            "url": "https://2027.sigmod.org/calls_papers_sigmod_research.shtml",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "25fd15a7850fe72aff68815a9d9e0d38aead241de55163edbd7cb1b0806b50e9"
+          },
+          "rounds": [
+            {
+              "id": "round-1",
+              "label": {
+                "ko": "연구 트랙 1차",
+                "en": "Research round 1"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-01-10T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "January 10, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-01-17T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "January 17, 2026",
+                  "verification": "verified"
+                }
+              ]
+            },
+            {
+              "id": "round-2",
+              "label": {
+                "ko": "연구 트랙 2차",
+                "en": "Research round 2"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-04-10T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "April 10, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-04-17T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "April 17, 2026",
+                  "verification": "verified"
+                }
+              ]
+            },
+            {
+              "id": "round-3",
+              "label": {
+                "ko": "연구 트랙 3차",
+                "en": "Research round 3"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-07-10T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "July 10, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-07-17T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "July 17, 2026",
+                  "verification": "verified"
+                }
+              ]
+            },
+            {
+              "id": "round-4",
+              "label": {
+                "ko": "연구 트랙 4차",
+                "en": "Research round 4"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-10-10T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "October 10, 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-10-17T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "October 17, 2026",
+                  "verification": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "vldb": {
+      "editions": [
+        {
+          "id": "vldb-2027",
+          "year": 2027,
+          "label": "VLDB 2027 / PVLDB Volume 20",
+          "event": null,
+          "source": {
+            "url": "https://www.vldb.org/2027/submission-guidelines.html",
+            "adapter": "manual",
+            "status": "manual",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": null
+          },
+          "rounds": [
+            {
+              "id": "month-2026-04",
+              "label": {
+                "ko": "2026-04 투고",
+                "en": "2026-04 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-03-25T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-03-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-04-01T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-04-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            },
+            {
+              "id": "month-2026-05",
+              "label": {
+                "ko": "2026-05 투고",
+                "en": "2026-05 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-04-25T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-04-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-05-01T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-05-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            },
+            {
+              "id": "month-2026-06",
+              "label": {
+                "ko": "2026-06 투고",
+                "en": "2026-06 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-05-25T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-05-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-06-01T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-06-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            },
+            {
+              "id": "month-2026-07",
+              "label": {
+                "ko": "2026-07 투고",
+                "en": "2026-07 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-06-25T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-06-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-07-01T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-07-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            },
+            {
+              "id": "month-2026-08",
+              "label": {
+                "ko": "2026-08 투고",
+                "en": "2026-08 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-07-25T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-07-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-08-01T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-08-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            },
+            {
+              "id": "month-2026-09",
+              "label": {
+                "ko": "2026-09 투고",
+                "en": "2026-09 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-08-25T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-08-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-09-01T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-09-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            },
+            {
+              "id": "month-2026-10",
+              "label": {
+                "ko": "2026-10 투고",
+                "en": "2026-10 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-09-25T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-09-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-10-01T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-10-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            },
+            {
+              "id": "month-2026-11",
+              "label": {
+                "ko": "2026-11 투고",
+                "en": "2026-11 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-10-25T17:00:00-07:00",
+                  "tzLabel": "PDT",
+                  "tzOffset": "-07:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-10-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-11-01T17:00:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-11-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            },
+            {
+              "id": "month-2026-12",
+              "label": {
+                "ko": "2026-12 투고",
+                "en": "2026-12 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-11-25T17:00:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-11-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-12-01T17:00:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-12-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            },
+            {
+              "id": "month-2027-01",
+              "label": {
+                "ko": "2027-01 투고",
+                "en": "2027-01 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-12-25T17:00:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2026-12-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2027-01-01T17:00:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2027-01-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            },
+            {
+              "id": "month-2027-02",
+              "label": {
+                "ko": "2027-02 투고",
+                "en": "2027-02 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2027-01-25T17:00:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2027-01-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2027-02-01T17:00:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2027-02-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            },
+            {
+              "id": "month-2027-03",
+              "label": {
+                "ko": "2027-03 투고",
+                "en": "2027-03 submission"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2027-02-25T17:00:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2027-02-25",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2027-03-01T17:00:00-08:00",
+                  "tzLabel": "PST",
+                  "tzOffset": "-08:00",
+                  "tzConfirmed": true,
+                  "sourceText": "2027-03-01",
+                  "verification": "verified",
+                  "verifiedAt": "2026-09-10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "www": {
+      "editions": [
+        {
+          "id": "www-2027",
+          "year": 2027,
+          "label": "WWW 2027",
+          "event": null,
+          "source": {
+            "url": "https://www2027.thewebconf.org/research-track-papers/",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T07:28:43Z",
+            "lastOkAt": "2026-09-10T07:28:43Z",
+            "error": null,
+            "contentHash": "38b6785afc949232db511a8cd068738a47db172b14ec01ed33613990d7f525b2"
+          },
+          "rounds": [
+            {
+              "id": "full",
+              "label": {
+                "ko": "정규 논문",
+                "en": "Full papers"
+              },
+              "track": "full",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-10-18T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "18 October 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-10-25T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "25 October 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2027-01-04T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "04 January 2027",
+                  "verification": "verified"
+                },
+                {
+                  "type": "camera-ready",
+                  "state": "dated",
+                  "at": "2027-01-31T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "31 January 2027",
+                  "verification": "verified"
+                }
+              ]
+            },
+            {
+              "id": "short",
+              "label": {
+                "ko": "단편 논문",
+                "en": "Short papers"
+              },
+              "track": "short",
+              "milestones": [
+                {
+                  "type": "abstract",
+                  "state": "dated",
+                  "at": "2026-11-09T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "9 November 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "paper",
+                  "state": "dated",
+                  "at": "2026-11-16T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "16 November 2026",
+                  "verification": "verified"
+                },
+                {
+                  "type": "notification",
+                  "state": "dated",
+                  "at": "2027-01-04T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "04 January 2027",
+                  "verification": "verified"
+                },
+                {
+                  "type": "camera-ready",
+                  "state": "dated",
+                  "at": "2027-01-31T23:59:00-12:00",
+                  "tzLabel": "AoE",
+                  "tzOffset": "-12:00",
+                  "tzConfirmed": true,
+                  "sourceText": "31 January 2027",
                   "verification": "verified"
                 }
               ]

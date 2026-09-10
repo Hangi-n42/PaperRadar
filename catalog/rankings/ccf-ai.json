@@ -1,0 +1,29 @@
+{
+  "id": "ccf-ai",
+  "label": {
+    "ko": "CCF · 인공지능",
+    "en": "CCF · AI"
+  },
+  "url": "https://www.ccf.org.cn/Academic_Evaluation/AI/",
+  "entries": {
+    "neurips": "A",
+    "icml": "A",
+    "acl": "A",
+    "cvpr": "A",
+    "jmlr": "A",
+    "tpami": "A",
+    "emnlp": "B",
+    "icra": "B",
+    "naacl": "B",
+    "coling": "B"
+  },
+  "description": {
+    "ko": "2026-09-10에 공식 분야별 페이지에 표시된 등급을 확인했습니다. 목록 판본 연도는 단정하지 않습니다. 학회 등급은 정규 논문 기준이며 워크숍·단편·Findings에 상속하지 않습니다. 미등록은 낮은 등급을 뜻하지 않습니다.",
+    "en": "Grades displayed on the official category page, checked 2026-09-10; no edition year is asserted. Conference grades concern regular papers, not workshops, short papers or Findings. Omission does not imply low quality."
+  },
+  "tiers": [
+    "A",
+    "B",
+    "C"
+  ]
+}

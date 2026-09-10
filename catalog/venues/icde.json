@@ -1,0 +1,80 @@
+{
+  "id": "icde",
+  "acronym": "ICDE",
+  "name": "IEEE International Conference on Data Engineering",
+  "type": "conference",
+  "fields": [
+    "column-type-annotation",
+    "semantic-table-interpretation",
+    "semantic-dependency-modeling",
+    "semantic-data-management"
+  ],
+  "topics": [
+    "Column Type Annotation",
+    "Semantic Table Interpretation",
+    "Semantic Dependency Modeling (data and language)",
+    "Semantic Data Management"
+  ],
+  "homepage": "https://icde2027.github.io/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://icde2027.github.io/important-dates.html",
+    "allowedHosts": [
+      "icde2027.github.io"
+    ],
+    "edition": {
+      "year": 2027,
+      "label": "ICDE 2027"
+    },
+    "timezone": {
+      "label": "PST",
+      "time": "17:00"
+    },
+    "rounds": [
+      {
+        "id": "round-1",
+        "track": "full",
+        "label": {
+          "ko": "연구 트랙 1차",
+          "en": "Research round 1"
+        },
+        "milestones": [
+          {
+            "type": "paper",
+            "pattern": "First Round Second Round Submission due\\s*{{DATE}}",
+            "tz": "PDT"
+          },
+          {
+            "type": "camera-ready",
+            "pattern": "Camera-ready copy due\\s*{{DATE}}",
+            "tz": "PDT"
+          }
+        ]
+      },
+      {
+        "id": "round-2",
+        "track": "full",
+        "label": {
+          "ko": "연구 트랙 2차",
+          "en": "Research round 2"
+        },
+        "milestones": [
+          {
+            "type": "paper",
+            "pattern": "First Round Second Round Submission due\\s*[A-Za-z]+ \\d{1,2}, \\d{4}\\s*{{DATE}}"
+          },
+          {
+            "type": "camera-ready",
+            "pattern": "Camera-ready copy due\\s*[A-Za-z]+ \\d{1,2}, \\d{4}\\s*{{DATE}}",
+            "tz": "PST"
+          }
+        ]
+      }
+    ]
+  },
+  "note": {
+    "ko": "공식 Pacific Time 오후 5시를 날짜별 미국 서머타임에 따라 PDT/PST로 환산했습니다. 근사치로 공지된 통보일은 등록하지 않았습니다.",
+    "en": "Official 5 p.m. Pacific Time is converted to PDT/PST by date. Approximate notification dates are omitted."
+  }
+}

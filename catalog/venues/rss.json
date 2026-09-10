@@ -1,0 +1,61 @@
+{
+  "id": "rss",
+  "acronym": "RSS",
+  "name": "Robotics: Science and Systems",
+  "type": "conference",
+  "fields": [
+    "data-centric-robotics",
+    "diffusion-models",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Data-Centric Robotics",
+    "Diffusion Models",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://roboticsconference.org/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://roboticsconference.org/information/cfp/",
+    "allowedHosts": [
+      "roboticsconference.org"
+    ],
+    "edition": {
+      "year": 2026,
+      "label": "RSS 2026"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "main",
+        "label": {
+          "ko": "본 논문",
+          "en": "Main papers"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "abstract",
+            "pattern": "{{DATE}}\\s*11:59pm AoE Abstract/Title Submission Deadline"
+          },
+          {
+            "type": "paper",
+            "pattern": "{{DATE}}\\s*11:59pm AoE Paper Submission Deadline"
+          },
+          {
+            "type": "notification",
+            "pattern": "{{DATE}}\\s*11:59pm AoE Paper Acceptance Notification"
+          },
+          {
+            "type": "camera-ready",
+            "pattern": "{{DATE}}\\s*11:59pm AoE Final Camera Ready Paper Submission"
+          }
+        ]
+      }
+    ]
+  }
+}

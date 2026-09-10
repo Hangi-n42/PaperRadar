@@ -1,0 +1,58 @@
+{
+  "id": "bento",
+  "acronym": "BeNTo",
+  "name": "Beyond Next-Token Prediction: Diffusion & Flow Models for Next-Generation Decoding",
+  "type": "workshop",
+  "fields": [
+    "diffusion-models",
+    "semantic-dependency-modeling",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Diffusion Models",
+    "Semantic Dependency Modeling (data and language)",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://bento-neurips.github.io/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://bento-neurips.github.io/",
+    "allowedHosts": [
+      "bento-neurips.github.io"
+    ],
+    "edition": {
+      "year": 2026,
+      "label": "BeNTo 2026"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "main",
+        "label": {
+          "ko": "본 논문",
+          "en": "Main papers"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "paper",
+            "pattern": "Submissions due\\s*{{DATE}}"
+          },
+          {
+            "type": "notification",
+            "pattern": "Notification\\s*{{DATE}}"
+          }
+        ]
+      }
+    ]
+  },
+  "parent": "NeurIPS",
+  "note": {
+    "ko": "공식 페이지가 일정을 변경 가능한 잠정 일정으로 안내합니다. 워크숍 개최일은 미확정이므로 등록하지 않았습니다.",
+    "en": "The official page marks dates as indicative and subject to change. The workshop day is not yet fixed."
+  }
+}

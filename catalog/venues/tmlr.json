@@ -1,0 +1,23 @@
+{
+  "id": "tmlr",
+  "acronym": "TMLR",
+  "name": "Transactions on Machine Learning Research",
+  "type": "journal",
+  "fields": [
+    "diffusion-models",
+    "hyperspherical-representation-learning",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Diffusion Models",
+    "Hyperspherical Representation Learning",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://www.jmlr.org/tmlr/",
+  "submission": "rolling",
+  "cfp": null,
+  "note": {
+    "ko": "일반 논문 상시 투고입니다. 연말 등 일시 접수 중단 여부는 공식 사이트를 확인하세요.",
+    "en": "Rolling submissions. Check the official site for temporary submission pauses such as holiday closures."
+  }
+}

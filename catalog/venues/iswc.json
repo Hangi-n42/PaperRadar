@@ -1,0 +1,71 @@
+{
+  "id": "iswc",
+  "acronym": "ISWC",
+  "name": "International Semantic Web Conference",
+  "type": "conference",
+  "fields": [
+    "column-type-annotation",
+    "semantic-table-interpretation",
+    "semantic-dependency-modeling",
+    "semantic-data-management"
+  ],
+  "topics": [
+    "Column Type Annotation",
+    "Semantic Table Interpretation",
+    "Semantic Dependency Modeling (data and language)",
+    "Semantic Data Management"
+  ],
+  "homepage": "https://iswc2026.semanticweb.org/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "manual",
+    "url": "https://iswc2026.semanticweb.org/#/calls/research",
+    "allowedHosts": [
+      "iswc2026.semanticweb.org"
+    ],
+    "edition": {
+      "year": 2026,
+      "label": "ISWC 2026"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "research",
+        "label": {
+          "ko": "연구 트랙",
+          "en": "Research track"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "abstract",
+            "date": "2026-05-02",
+            "verifiedAt": "2026-09-10"
+          },
+          {
+            "type": "paper",
+            "date": "2026-05-07",
+            "verifiedAt": "2026-09-10"
+          },
+          {
+            "type": "notification",
+            "date": "2026-07-16",
+            "verifiedAt": "2026-09-10"
+          },
+          {
+            "type": "camera-ready",
+            "date": "2026-08-06",
+            "verifiedAt": "2026-09-10"
+          }
+        ]
+      }
+    ]
+  },
+  "note": {
+    "ko": "JavaScript로 렌더링되는 공식 연구 트랙 CFP를 2026-09-10에 확인했습니다. 수동 일정은 변경 시 재확인이 필요합니다.",
+    "en": "Official JavaScript-rendered research CFP checked on 2026-09-10. Manual dates require rechecking when updated."
+  }
+}

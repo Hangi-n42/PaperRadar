@@ -1,0 +1,69 @@
+{
+  "id": "acl",
+  "acronym": "ACL",
+  "name": "Annual Meeting of the Association for Computational Linguistics",
+  "type": "conference",
+  "fields": [
+    "semantic-dependency-modeling",
+    "semantic-table-interpretation",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Semantic Dependency Modeling (data and language)",
+    "Semantic Table Interpretation",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://2026.aclweb.org/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://2026.aclweb.org/",
+    "allowedHosts": [
+      "2026.aclweb.org"
+    ],
+    "edition": {
+      "year": 2026,
+      "label": "ACL 2026"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "main",
+        "label": {
+          "ko": "본 논문",
+          "en": "Main papers"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "paper",
+            "pattern": "Submission deadline \\(all papers are submitted to ARR\\)\\s*{{DATE}}"
+          },
+          {
+            "type": "other",
+            "pattern": "Commitment deadline for ACL 2026\\s*{{DATE}}",
+            "label": {
+              "ko": "ACL 커밋 마감 (ARR 심사 후)",
+              "en": "ACL commitment (after ARR review)"
+            }
+          },
+          {
+            "type": "notification",
+            "pattern": "Notification of acceptance\\s*{{DATE}}"
+          },
+          {
+            "type": "camera-ready",
+            "pattern": "Camera-ready deadline\\s*{{DATE}}"
+          }
+        ]
+      }
+    ]
+  },
+  "note": {
+    "ko": "2026 회차 이력입니다. 2027 공식 사이트(https://2027.aclweb.org/)의 투고 일정은 확인 시점에 TBA여서 추정하지 않았습니다. ARR 투고와 학회 커밋은 별도 단계입니다.",
+    "en": "Historical 2026 edition. Submission dates on https://2027.aclweb.org/ were TBA when checked; no 2027 deadlines inferred. ARR submission and conference commitment are separate."
+  }
+}

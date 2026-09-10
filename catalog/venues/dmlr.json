@@ -1,0 +1,25 @@
+{
+  "id": "dmlr",
+  "acronym": "DMLR",
+  "name": "Data-centric Machine Learning Research",
+  "type": "journal",
+  "fields": [
+    "column-type-annotation",
+    "semantic-table-interpretation",
+    "data-centric-robotics",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Column Type Annotation",
+    "Semantic Table Interpretation",
+    "Data-Centric Robotics",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://data.mlr.press/",
+  "submission": "rolling",
+  "cfp": null,
+  "note": {
+    "ko": "일반 논문 상시 투고입니다. 특집호·학회 연계 마감은 포함하지 않습니다.",
+    "en": "Rolling regular-paper submissions. Special-issue and conference-presentation deadlines are not included."
+  }
+}

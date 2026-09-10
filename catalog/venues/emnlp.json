@@ -1,0 +1,69 @@
+{
+  "id": "emnlp",
+  "acronym": "EMNLP",
+  "name": "Conference on Empirical Methods in Natural Language Processing",
+  "type": "conference",
+  "fields": [
+    "semantic-dependency-modeling",
+    "semantic-table-interpretation",
+    "multimodal-representation-learning"
+  ],
+  "topics": [
+    "Semantic Dependency Modeling (data and language)",
+    "Semantic Table Interpretation",
+    "Multimodal Representation Learning"
+  ],
+  "homepage": "https://2026.emnlp.org/",
+  "submission": "cfp",
+  "cfp": {
+    "adapter": "declarative",
+    "url": "https://2026.emnlp.org/",
+    "allowedHosts": [
+      "2026.emnlp.org"
+    ],
+    "edition": {
+      "year": 2026,
+      "label": "EMNLP 2026"
+    },
+    "timezone": {
+      "label": "AoE",
+      "time": "23:59"
+    },
+    "rounds": [
+      {
+        "id": "main",
+        "label": {
+          "ko": "본 논문",
+          "en": "Main papers"
+        },
+        "track": "full",
+        "milestones": [
+          {
+            "type": "paper",
+            "pattern": "ARR submission deadline \\(long & short papers\\)\\s*{{DATE}}"
+          },
+          {
+            "type": "other",
+            "pattern": "EMNLP commitment deadline\\s*{{DATE}}",
+            "label": {
+              "ko": "EMNLP 커밋 마감 (ARR 심사 후)",
+              "en": "EMNLP commitment (after ARR review)"
+            }
+          },
+          {
+            "type": "notification",
+            "pattern": "Notification of acceptance \\(long & short papers\\)\\s*{{DATE}}"
+          },
+          {
+            "type": "camera-ready",
+            "pattern": "Camera-ready papers due \\(long & short\\)\\s*{{DATE}}"
+          }
+        ]
+      }
+    ]
+  },
+  "note": {
+    "ko": "ARR 신규 투고와 학회 커밋은 별도 단계입니다. 표시된 회차의 일정이며 다음 회차는 추정하지 않습니다.",
+    "en": "ARR submission and conference commitment are separate steps. Dates belong to the stated edition, not an inferred future edition."
+  }
+}
