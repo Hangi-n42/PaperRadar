@@ -58,6 +58,6 @@ reminders:
   daysBefore: [30, 15, 3, 0]    # a section per threshold; 0 = on the day itself
   imminentDays: 3               # thresholds at or below this are grouped as "closing soon"
   language: ko
-  channels: [google-chat]       # google-chat (webhook) and/or email (SMTP) — secrets in GitHub → Settings → Secrets
+  channels: [email]             # Gmail SMTP 인증값은 GitHub Actions Secret으로 관리
   notifyChanges: true           # include dates announced / moved / removed / re-verified since the last message
   notifyFailures: false         # also include source-verification failures (they open a GitHub issue anyway)
