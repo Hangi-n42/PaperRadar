@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T08:03:25Z",
+  "updatedAt": "2026-09-10T08:05:51Z",
   "venues": {
     "asplos": {
       "editions": [
@@ -2241,8 +2241,8 @@
             "url": "https://2026.aclweb.org/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "84feba6ea37d01902e9179d9d041b761ac97574daabaaf8cc524c3c5a6101bcf"
           },
@@ -2316,8 +2316,8 @@
             "url": "https://bento-neurips.github.io/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "2e011c725e90082793f038a0ef428685e0404bbca79ae981d07fa5ac30f91dbb"
           },
@@ -2367,10 +2367,10 @@
             "url": "https://cikm2026.diag.uniroma1.it/full-research-papers/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
-            "contentHash": "70794feeacf195f6be8c78858f4da0e0361242f38fa42f11c02a85654eee164a"
+            "contentHash": "016cff0458565f80ddeb7377347a7954f3e164a49802619be2bef3d9bd30d496"
           },
           "rounds": [
             {
@@ -2438,8 +2438,8 @@
             "url": "https://2027.coling-iccl.org/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "741314f2630159969e4bedb053881d0f3ea01aba9216265cec125d8084512f9a"
           },
@@ -2500,10 +2500,10 @@
             "url": "https://2026.corl.org/contributions/instruction-for-authors",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
-            "contentHash": "a22ed89e31eae30e5944f9f4821e077976eca72c4416f41c35166307e9b1a202"
+            "contentHash": "d506eaf5678a31273181c60f2692766f2576fea284ae5283ee269c4da3308162"
           },
           "rounds": [
             {
@@ -2558,10 +2558,10 @@
             "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
-            "contentHash": "23ec6ca4cf2f21206799b24440554573ff9c94f511376513fa0957de66a867cd"
+            "contentHash": "1545a6e62ab267eca35f817e007ba3646911bb7c55e787e21663f3fac7e5103d"
           },
           "rounds": [
             {
@@ -2627,8 +2627,8 @@
             "url": "https://2026.emnlp.org/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "9c298b9b73d819f63313a35e2864f0657093c303f367840169ad3da649ceed6f"
           },
@@ -2702,8 +2702,8 @@
             "url": "https://2026.eswc-conferences.org/calls/papers-research-track/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "1c811c53cdbd7ab783aa3f23f4f87a10d2b906946245468fe53e9fe98a5af7dc"
           },
@@ -2773,8 +2773,8 @@
             "url": "https://icde2027.github.io/important-dates.html",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "cb797f116ee6b4df5dc5a55fd4d8d22c7be710f5a6b724622d3e25b3d8f92062"
           },
@@ -2854,10 +2854,10 @@
             "url": "https://iclr.cc/Conferences/2027/AuthorGuidelines",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
-            "contentHash": "c57892230ccd5716447d1477ed31c113ed7f5bb63d5205cb55b3221448e28516"
+            "contentHash": "c74523e798d9d00d40bb92cbe4dc356644540ce488eefdd03ad65bab152f9961"
           },
           "rounds": [
             {
@@ -2905,10 +2905,10 @@
             "url": "https://icml.cc/Conferences/2026/CallForPapers",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
-            "contentHash": "a5aad3b0a0702034a59c6d297816284559c88a656eec6a360b5987085ea4d335"
+            "contentHash": "a70867da846ec622736e16f912cfcae2b5359029a62feb02134fd75b4c4bc645"
           },
           "rounds": [
             {
@@ -2956,10 +2956,10 @@
             "url": "https://2027.ieee-icra.org/announcements/call-for-technical-papers/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
-            "contentHash": "2bd4313cd2ef2eca2222f623281a54e159d89dfef99b6f971842577028443b03"
+            "contentHash": "e8f9cdd8146ebb3991c94e4f229a0574c09c71e8478c68b37791fa9ee3da625e"
           },
           "rounds": [
             {
@@ -2997,8 +2997,8 @@
             "url": "https://iswc2026.semanticweb.org/#/calls/research",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "3a489d79df42265b7ef5bc04f0862952136c38c21a3a9049e6a6f48f846a4db3"
           },
@@ -3068,8 +3068,8 @@
             "url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "ddec34a6e0c7dafc438320906c2cba802e5743195e5771986a08b20dbe28290a"
           },
@@ -3129,8 +3129,8 @@
             "url": "https://2027.naacl.org/calls/main_conference_papers/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "6de359f6f84806569df805d82227d88f870d464ddf1e5bc47c878acc669dc037"
           },
@@ -3191,10 +3191,10 @@
             "url": "https://neurips.cc/Conferences/2026/CallForPapers",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
-            "contentHash": "cf31dc44da7ee378d8322f8c09aa8e5f90df12d38f60a564328a251d936d3ff9"
+            "contentHash": "99067e9fc955815668f38466579828f465da170cf60f4c8ff091d0a70641a3d4"
           },
           "rounds": [
             {
@@ -3252,8 +3252,8 @@
             "url": "https://roboticsconference.org/information/cfp/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "8a8a08851bbee738785f676bcbb21936b3a4aa0017d51dde70e608b9cdc379f8"
           },
@@ -3323,8 +3323,8 @@
             "url": "https://scaling-h2r-corl.github.io/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "fb69f1be96643c2cd81c4d2dd365278c77f4e8ec5ce42535f7a9c7b004019e8e"
           },
@@ -3364,8 +3364,8 @@
             "url": "https://2027.sigmod.org/calls_papers_sigmod_research.shtml",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "645e2293c6a40e5808f52761ede007b474ff6952f0014fc58d30de6c4ec829ff"
           },
@@ -3505,8 +3505,8 @@
             "url": "https://www.vldb.org/2027/submission-guidelines.html",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "11c4a4da0e103549277bcdc04571067a9508b536ba423b12b4c132b8666f50ef"
           },
@@ -3850,8 +3850,8 @@
             "url": "https://www2027.thewebconf.org/research-track-papers/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T08:03:25Z",
-            "lastOkAt": "2026-09-10T08:03:25Z",
+            "checkedAt": "2026-09-10T08:05:51Z",
+            "lastOkAt": "2026-09-10T08:05:51Z",
             "error": null,
             "contentHash": "4e8859bf415f0812b232946788c723bb13ca0c4fbbfe8306382ca9601becc4eb"
           },
