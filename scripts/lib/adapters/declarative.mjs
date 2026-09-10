@@ -5,6 +5,7 @@
 import { compilePattern } from '../catalog.mjs';
 import { parseDateText, toIsoWithOffset, resolveOffset, normalizeTime } from '../dates.mjs';
 import { checkChronology } from '../schedule.mjs';
+import { extractMonthly } from './monthly.mjs';
 
 /**
  * @param {object} cfp  venue.cfp (validated)
@@ -12,6 +13,11 @@ import { checkChronology } from '../schedule.mjs';
  * @returns {{ok:boolean, rounds:object[], errors:string[]}}
  */
 export function extractDeclarative(cfp, text) {
+  // 시간대 근거가 사라지거나 바뀌면 기존 값을 자동 확인한 것으로 취급하지 않습니다.
+  for (const pattern of cfp.guards ?? []) {
+    if (!new RegExp(pattern, 'i').test(text)) return { ok: false, rounds: [], errors: ['source guard not found: ' + pattern] };
+  }
+  if (cfp.recurrence) return extractMonthly(cfp, text);
   const errors = [];
   const rounds = [];
   const { edition, timezone } = cfp;

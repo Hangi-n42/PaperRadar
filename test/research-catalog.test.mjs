@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { validateVenue } from '../scripts/lib/catalog.mjs';
 import { Report } from '../scripts/lib/errors.mjs';
 import { extractDeclarative } from '../scripts/lib/adapters/declarative.mjs';
-import { extractManual } from '../scripts/lib/adapters/manual.mjs';
+
 
 // 실제 어댑터에 합성 문구를 입력하여 회차·날짜 순서 혼동을 재현합니다.
 // 합성 날짜는 테스트 전용이며 카탈로그 일정의 근거로 사용하지 않습니다.
@@ -70,31 +70,4 @@ test('CIKM은 날짜 뒤 라벨을 사용하고 다음 항목의 날짜를 섞�
     'August 23, 2098 – Camera-Ready Submission Deadline';
   const dates = extract(input, text)[0].milestones.map(m => m.at.slice(0, 10));
   assert.deepEqual(dates, ['2098-05-16', '2098-05-23', '2098-08-07', '2098-08-23']);
-});
-
-test('VLDB의 월별 규칙은 12회이며 모든 마감이 현지 오후 5시이다', () => {
-  const input = cfp('vldb');
-  const result = extractManual(input);
-  assert.ok(result.ok, result.errors.join('\n'));
-  assert.equal(result.rounds.length, 12);
-  for (const round of result.rounds) {
-    const [abstract, paper] = round.milestones;
-    assert.equal(abstract.at.slice(8, 10), '25');
-    assert.equal(paper.at.slice(8, 10), '01');
-    assert.ok(Date.parse(abstract.at) < Date.parse(paper.at));
-    for (const m of [abstract, paper]) {
-      const parts = new Intl.DateTimeFormat('en-GB', {
-        timeZone: 'America/Los_Angeles', hourCycle: 'h23',
-        year: 'numeric', month: '2-digit', day: '2-digit',
-        hour: '2-digit', minute: '2-digit'
-      }).formatToParts(new Date(m.at));
-      const get = type => parts.find(p => p.type === type).value;
-      assert.equal(get('hour') + ':' + get('minute'), '17:00');
-      assert.equal(get('year') + '-' + get('month') + '-' + get('day'), m.at.slice(0, 10));
-    }
-  }
-  // 2026년 11월 회차는 초록과 논문 사이에 서머타임이 종료됩니다.
-  const november = result.rounds.find(r => r.id === 'month-2026-11');
-  assert.ok(november.milestones[0].at.endsWith('-07:00'));
-  assert.ok(november.milestones[1].at.endsWith('-08:00'));
 });

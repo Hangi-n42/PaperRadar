@@ -310,123 +310,123 @@
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-04/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-03-25T17:00:00-07:00|VLDB 2027 · 2026-04 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-03-25T17:00:00-07:00|VLDB 2027 · 2026-04 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-04/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2026-04-01T17:00:00-07:00|VLDB 2027 · 2026-04 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-04-01T17:00:00-07:00|VLDB 2027 · 2026-04 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-05/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-04-25T17:00:00-07:00|VLDB 2027 · 2026-05 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-04-25T17:00:00-07:00|VLDB 2027 · 2026-05 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-05/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2026-05-01T17:00:00-07:00|VLDB 2027 · 2026-05 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-05-01T17:00:00-07:00|VLDB 2027 · 2026-05 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-06/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-05-25T17:00:00-07:00|VLDB 2027 · 2026-06 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-05-25T17:00:00-07:00|VLDB 2027 · 2026-06 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-06/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2026-06-01T17:00:00-07:00|VLDB 2027 · 2026-06 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-06-01T17:00:00-07:00|VLDB 2027 · 2026-06 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-07/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-06-25T17:00:00-07:00|VLDB 2027 · 2026-07 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-06-25T17:00:00-07:00|VLDB 2027 · 2026-07 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-07/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2026-07-01T17:00:00-07:00|VLDB 2027 · 2026-07 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-07-01T17:00:00-07:00|VLDB 2027 · 2026-07 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-08/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-07-25T17:00:00-07:00|VLDB 2027 · 2026-08 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-07-25T17:00:00-07:00|VLDB 2027 · 2026-08 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-08/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2026-08-01T17:00:00-07:00|VLDB 2027 · 2026-08 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-08-01T17:00:00-07:00|VLDB 2027 · 2026-08 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-09/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-08-25T17:00:00-07:00|VLDB 2027 · 2026-09 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-08-25T17:00:00-07:00|VLDB 2027 · 2026-09 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-09/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2026-09-01T17:00:00-07:00|VLDB 2027 · 2026-09 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-09-01T17:00:00-07:00|VLDB 2027 · 2026-09 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-10/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-09-25T17:00:00-07:00|VLDB 2027 · 2026-10 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-09-25T17:00:00-07:00|VLDB 2027 · 2026-10 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-10/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2026-10-01T17:00:00-07:00|VLDB 2027 · 2026-10 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-10-01T17:00:00-07:00|VLDB 2027 · 2026-10 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-11/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-10-25T17:00:00-07:00|VLDB 2027 · 2026-11 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-10-25T17:00:00-07:00|VLDB 2027 · 2026-11 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-11/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2026-11-01T17:00:00-08:00|VLDB 2027 · 2026-11 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-11-01T17:00:00-08:00|VLDB 2027 · 2026-11 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-12/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-11-25T17:00:00-08:00|VLDB 2027 · 2026-12 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-11-25T17:00:00-08:00|VLDB 2027 · 2026-12 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2026-12/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2026-12-01T17:00:00-08:00|VLDB 2027 · 2026-12 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-12-01T17:00:00-08:00|VLDB 2027 · 2026-12 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2027-01/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2026-12-25T17:00:00-08:00|VLDB 2027 · 2027-01 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2026-12-25T17:00:00-08:00|VLDB 2027 · 2027-01 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2027-01/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2027-01-01T17:00:00-08:00|VLDB 2027 · 2027-01 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2027-01-01T17:00:00-08:00|VLDB 2027 · 2027-01 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2027-02/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2027-01-25T17:00:00-08:00|VLDB 2027 · 2027-02 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2027-01-25T17:00:00-08:00|VLDB 2027 · 2027-02 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2027-02/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2027-02-01T17:00:00-08:00|VLDB 2027 · 2027-02 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2027-02-01T17:00:00-08:00|VLDB 2027 · 2027-02 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2027-03/full/abstract": {
-    "sequence": 0,
-    "fingerprint": "2027-02-25T17:00:00-08:00|VLDB 2027 · 2027-03 투고 초록 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2027-02-25T17:00:00-08:00|VLDB 2027 · 2027-03 초록 마감|CONFIRMED",
     "cancelledAt": null
   },
   "vldb/vldb-2027/month-2027-03/full/paper": {
-    "sequence": 0,
-    "fingerprint": "2027-03-01T17:00:00-08:00|VLDB 2027 · 2027-03 투고 논문 마감|CONFIRMED",
+    "sequence": 1,
+    "fingerprint": "2027-03-01T17:00:00-08:00|VLDB 2027 · 2027-03 논문 마감|CONFIRMED",
     "cancelledAt": null
   },
   "www/www-2027/full/full/abstract": {

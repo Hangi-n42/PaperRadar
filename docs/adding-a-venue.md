@@ -219,3 +219,26 @@ Venues that change host between editions (`hpdc.sci.utah.edu/2026/` →
 somewhere else entirely) will simply never find a candidate. That is not a
 failure; the source keeps its normal status and a human updates the file.
 Check what would happen with `npm run probe -- --venue <id>`.
+# 동적 페이지 원본과 월별 반복 마감
+
+선언형 어댑터는 일반 HTML 외에 아래 원본 형식을 지원합니다. 공식 코드의 실행 없이 `acorn` 구문 분석기로 정적 데이터만 읽습니다.
+
+- `cfp.source.format: javascript-strings`: 현재 JavaScript 모듈의 문자열 리터럴을 소스 순서대로 연결합니다. 주석은 제외합니다.
+- `cfp.source.follow`: 원본 문서에서 다음 참조를 캡처하는 정규식 목록입니다(최대 3단계, 각 패턴 캡처 1개). 서로 다른 참조가 여러 개이거나 없으면 실패합니다. 상대 URL은 현재 응답 URL을 기준으로 해석하며 모든 요청과 리다이렉트는 `allowedHosts`로 제한합니다. 해시가 붙은 URL을 직접 고정하지 마세요.
+- `cfp.source.format: embedded-json`: `attribute` 속성의 HTML 엔티티를 해독하고 내부 script에서 `variable` 이름의 정적 객체를 읽습니다. 예: CoRL의 `attribute: data-code`, `variable: important_dates`. 숫자·문자열·중첩 객체만 허용하며 함수 호출·계산 프로퍼티·중복 키는 거절합니다. 패턴은 객체의 JSON 문자열에 적용됩니다.
+- `cfp.guards`: 추출 전에 반드시 존재해야 하는 정규식 목록입니다(캡처 0개). 공식 시간대·시각이 유지되는지 확인할 때 사용합니다.
+
+`cfp.recurrence`는 `kind: monthly`를 지원합니다. 날짜를 카탈로그에 미리 전개하지 않고 매 갱신마다 공식 규칙을 읽습니다.
+
+| 속성 | 의미 |
+|---|---|
+| `startPattern`, `endPattern` | 첫·마지막 논문 마감 날짜 (`{{DATE}}`, 캡처 1개) |
+| `paperDayPattern` | 매월 논문 마감의 일(day) 숫자 |
+| `abstractDayPattern` | 전월 초록 마감의 일(day) 숫자 |
+| `timePattern` | 공식 시각 `h:mm AM/PM` |
+| `timezonePattern` | 공식 시간대·서머타임 문구 (캡처 0개) |
+| `timeZone` | 공식 근거에 대응하는 IANA 시간대 |
+
+날짜 외 숫자·시각 패턴도 캡처가 정확히 1개여야 합니다. 반복 규칙은 한 개의 `abstract`, `paper` milestone을 가진 round 템플릿을 사용합니다. 생성되는 round ID는 `month-YYYY-MM`이며, 기존 수동 VLDB 일정과 UID를 유지합니다. 회차 연도와 맞지 않는 범위, 24회를 초과하는 범위, 존재하지 않는 날짜, DST의 중복·누락 현지 시각은 실패합니다. 반복 규칙과 연도 rollover는 함께 사용할 수 없습니다.
+
+실제 구성 예시는 `catalog/venues/iswc.json`, `corl.json`, `vldb.json`을 참고하세요. 원본 로딩과 규칙 추출은 기존과 동일하게 회차 전체가 성공해야 반영되며, 실패 시 이전 날짜를 `needs-verification`으로 보존합니다. 저널 상시 투고와 미발표 회차 날짜를 이 규칙으로 추정해서는 안 됩니다.

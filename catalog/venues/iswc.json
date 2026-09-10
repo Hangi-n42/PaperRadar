@@ -18,7 +18,7 @@
   "homepage": "https://iswc2026.semanticweb.org/",
   "submission": "cfp",
   "cfp": {
-    "adapter": "manual",
+    "adapter": "declarative",
     "url": "https://iswc2026.semanticweb.org/#/calls/research",
     "allowedHosts": [
       "iswc2026.semanticweb.org"
@@ -42,30 +42,36 @@
         "milestones": [
           {
             "type": "abstract",
-            "date": "2026-05-02",
-            "verifiedAt": "2026-09-10"
+            "pattern": "Abstract submission due\\s+b\\s*{{DATE}}"
           },
           {
             "type": "paper",
-            "date": "2026-05-07",
-            "verifiedAt": "2026-09-10"
+            "pattern": "Full paper submission due\\s+b\\s*{{DATE}}"
           },
           {
             "type": "notification",
-            "date": "2026-07-16",
-            "verifiedAt": "2026-09-10"
+            "pattern": "Notifications\\s+b\\s*{{DATE}}"
           },
           {
             "type": "camera-ready",
-            "date": "2026-08-06",
-            "verifiedAt": "2026-09-10"
+            "pattern": "Camera-ready papers due\\s+b\\s*{{DATE}}"
           }
         ]
       }
+    ],
+    "source": {
+      "format": "javascript-strings",
+      "follow": [
+        "<script\\b[^>]*\\bsrc=\"([^\"]+)\"",
+        "\"(\\./Research-[^\"]+\\.js)\""
+      ]
+    },
+    "guards": [
+      "All deadlines are\\s+b\\s+23:59 AoE"
     ]
   },
   "note": {
-    "ko": "JavaScript로 렌더링되는 공식 연구 트랙 CFP를 2026-09-10에 확인했습니다. 수동 일정은 변경 시 재확인이 필요합니다.",
-    "en": "Official JavaScript-rendered research CFP checked on 2026-09-10. Manual dates require rechecking when updated."
+    "ko": "공식 페이지가 참조하는 연구 트랙 모듈을 매번 발견하고 정적 문자열에서 마감을 자동 추출합니다. 페이지 코드를 실행하지 않습니다.",
+    "en": "Automatically discovers the official research module and extracts deadlines from static strings without executing page code."
   }
 }

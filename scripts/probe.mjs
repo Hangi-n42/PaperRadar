@@ -30,7 +30,9 @@ async function main() {
         console.log(`    ${m.type.padEnd(13)} ${m.state.padEnd(13)} ${m.at ?? '—'}  ${m.sourceText ? `"${m.sourceText}"` : ''}  [${m.verification}]`);
       }
     }
-    process.exit(r.failure ? 1 : 0);
+    // 네트워크 핸들과 출력이 정리된 뒤 종료하여 Windows libuv 종료 충돌을 방지합니다.
+    process.exitCode = r.failure ? 1 : 0;
+    return;
   }
 
   const url = args._[0];

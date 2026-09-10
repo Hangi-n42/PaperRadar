@@ -18,7 +18,7 @@
   "homepage": "https://www.vldb.org/2027/",
   "submission": "cfp",
   "cfp": {
-    "adapter": "manual",
+    "adapter": "declarative",
     "url": "https://www.vldb.org/2027/submission-guidelines.html",
     "allowedHosts": [
       "www.vldb.org"
@@ -28,278 +28,31 @@
       "label": "VLDB 2027 / PVLDB Volume 20"
     },
     "timezone": {
-      "label": "PST",
-      "time": "17:00"
+      "label": "unspecified"
     },
     "rounds": [
       {
-        "id": "month-2026-04",
-        "label": {
-          "ko": "2026-04 투고",
-          "en": "2026-04 submission"
-        },
+        "id": "monthly",
         "track": "full",
         "milestones": [
           {
-            "type": "abstract",
-            "date": "2026-03-25",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
+            "type": "abstract"
           },
           {
-            "type": "paper",
-            "date": "2026-04-01",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          }
-        ]
-      },
-      {
-        "id": "month-2026-05",
-        "label": {
-          "ko": "2026-05 투고",
-          "en": "2026-05 submission"
-        },
-        "track": "full",
-        "milestones": [
-          {
-            "type": "abstract",
-            "date": "2026-04-25",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          },
-          {
-            "type": "paper",
-            "date": "2026-05-01",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          }
-        ]
-      },
-      {
-        "id": "month-2026-06",
-        "label": {
-          "ko": "2026-06 투고",
-          "en": "2026-06 submission"
-        },
-        "track": "full",
-        "milestones": [
-          {
-            "type": "abstract",
-            "date": "2026-05-25",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          },
-          {
-            "type": "paper",
-            "date": "2026-06-01",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          }
-        ]
-      },
-      {
-        "id": "month-2026-07",
-        "label": {
-          "ko": "2026-07 투고",
-          "en": "2026-07 submission"
-        },
-        "track": "full",
-        "milestones": [
-          {
-            "type": "abstract",
-            "date": "2026-06-25",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          },
-          {
-            "type": "paper",
-            "date": "2026-07-01",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          }
-        ]
-      },
-      {
-        "id": "month-2026-08",
-        "label": {
-          "ko": "2026-08 투고",
-          "en": "2026-08 submission"
-        },
-        "track": "full",
-        "milestones": [
-          {
-            "type": "abstract",
-            "date": "2026-07-25",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          },
-          {
-            "type": "paper",
-            "date": "2026-08-01",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          }
-        ]
-      },
-      {
-        "id": "month-2026-09",
-        "label": {
-          "ko": "2026-09 투고",
-          "en": "2026-09 submission"
-        },
-        "track": "full",
-        "milestones": [
-          {
-            "type": "abstract",
-            "date": "2026-08-25",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          },
-          {
-            "type": "paper",
-            "date": "2026-09-01",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          }
-        ]
-      },
-      {
-        "id": "month-2026-10",
-        "label": {
-          "ko": "2026-10 투고",
-          "en": "2026-10 submission"
-        },
-        "track": "full",
-        "milestones": [
-          {
-            "type": "abstract",
-            "date": "2026-09-25",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          },
-          {
-            "type": "paper",
-            "date": "2026-10-01",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          }
-        ]
-      },
-      {
-        "id": "month-2026-11",
-        "label": {
-          "ko": "2026-11 투고",
-          "en": "2026-11 submission"
-        },
-        "track": "full",
-        "milestones": [
-          {
-            "type": "abstract",
-            "date": "2026-10-25",
-            "tz": "PDT",
-            "verifiedAt": "2026-09-10"
-          },
-          {
-            "type": "paper",
-            "date": "2026-11-01",
-            "tz": "PST",
-            "verifiedAt": "2026-09-10"
-          }
-        ]
-      },
-      {
-        "id": "month-2026-12",
-        "label": {
-          "ko": "2026-12 투고",
-          "en": "2026-12 submission"
-        },
-        "track": "full",
-        "milestones": [
-          {
-            "type": "abstract",
-            "date": "2026-11-25",
-            "tz": "PST",
-            "verifiedAt": "2026-09-10"
-          },
-          {
-            "type": "paper",
-            "date": "2026-12-01",
-            "tz": "PST",
-            "verifiedAt": "2026-09-10"
-          }
-        ]
-      },
-      {
-        "id": "month-2027-01",
-        "label": {
-          "ko": "2027-01 투고",
-          "en": "2027-01 submission"
-        },
-        "track": "full",
-        "milestones": [
-          {
-            "type": "abstract",
-            "date": "2026-12-25",
-            "tz": "PST",
-            "verifiedAt": "2026-09-10"
-          },
-          {
-            "type": "paper",
-            "date": "2027-01-01",
-            "tz": "PST",
-            "verifiedAt": "2026-09-10"
-          }
-        ]
-      },
-      {
-        "id": "month-2027-02",
-        "label": {
-          "ko": "2027-02 투고",
-          "en": "2027-02 submission"
-        },
-        "track": "full",
-        "milestones": [
-          {
-            "type": "abstract",
-            "date": "2027-01-25",
-            "tz": "PST",
-            "verifiedAt": "2026-09-10"
-          },
-          {
-            "type": "paper",
-            "date": "2027-02-01",
-            "tz": "PST",
-            "verifiedAt": "2026-09-10"
-          }
-        ]
-      },
-      {
-        "id": "month-2027-03",
-        "label": {
-          "ko": "2027-03 투고",
-          "en": "2027-03 submission"
-        },
-        "track": "full",
-        "milestones": [
-          {
-            "type": "abstract",
-            "date": "2027-02-25",
-            "tz": "PST",
-            "verifiedAt": "2026-09-10"
-          },
-          {
-            "type": "paper",
-            "date": "2027-03-01",
-            "tz": "PST",
-            "verifiedAt": "2026-09-10"
+            "type": "paper"
           }
         ]
       }
-    ]
-  },
-  "note": {
-    "ko": "PVLDB v20 공식 규칙(2026-04-01~2027-03-01 매월 1일 논문, 전월 25일 초록, Pacific Time 17:00)을 12회로 전개했습니다. 날짜별 서머타임을 반영했으며 규칙 변경 시 수동 갱신이 필요합니다.",
-    "en": "Expands the official PVLDB v20 rule into 12 cycles: papers on the first of each month from 2026-04-01 to 2027-03-01, abstracts on the preceding month's 25th, 5 p.m. Pacific Time. DST is applied by date; rule changes require manual updates."
+    ],
+    "recurrence": {
+      "kind": "monthly",
+      "startPattern": "The first monthly submission deadline for PVLDB Volume \\d+ is\\s*{{DATE}}",
+      "endPattern": "The final deadline is\\s*{{DATE}}",
+      "paperDayPattern": "A rolling deadline occurs on the (\\d+)(?:st|nd|rd|th) of each month",
+      "abstractDayPattern": "with mandatory abstract submission by (\\d+)(?:st|nd|rd|th) of the previous month",
+      "timePattern": "of each month\\s*,\\s*(\\d{1,2}:\\d{2}\\s*(?:AM|PM)) Pacific Time",
+      "timezonePattern": "Pacific Time \\(Daylight Savings observed according to the US calendar\\)",
+      "timeZone": "America/Los_Angeles"
+    }
   }
 }

@@ -1,7 +1,7 @@
 // Refresh orchestration for one venue. The one rule that matters: a failed
 // fetch or parse never replaces good data. It keeps the last known values,
 // flags them as needs-verification and records why.
-import { fetchSource, htmlToText } from './fetch.mjs';
+import { fetchCfp } from './source.mjs';
 import { extractDeclarative } from './adapters/declarative.mjs';
 import { extractManual } from './adapters/manual.mjs';
 import { upsertEdition, deadlineUid } from './schedule.mjs';
@@ -43,7 +43,7 @@ export async function refreshVenue(venue, previous, { now, fetchImpl } = {}) {
   }
 
   // declarative
-  const fetched = await fetchSource(cfp.url, { allowedHosts: cfp.allowedHosts, fetchImpl });
+  const fetched = await fetchCfp(cfp, { fetchImpl });
   let error = null;
   let extracted = null;
   let contentHash = null;
@@ -51,7 +51,7 @@ export async function refreshVenue(venue, previous, { now, fetchImpl } = {}) {
     error = `fetch failed: ${fetched.error}`;
   } else {
     contentHash = fetched.contentHash;
-    extracted = extractDeclarative(cfp, htmlToText(fetched.text));
+    extracted = extractDeclarative(cfp, fetched.text);
     if (!extracted.ok) error = `extraction failed: ${extracted.errors.join('; ')}`;
   }
 
@@ -121,12 +121,12 @@ async function tryRollover(venue, currentEdition, { now, fetchImpl }) {
     const source = candidateSource(cfp, year);
     if (!source) continue;
     const next = candidateCfp(cfp, year, source, venue.acronym);
-    const fetched = await fetchSource(source.url, { allowedHosts: source.allowedHosts, fetchImpl });
+    const fetched = await fetchCfp(next, { fetchImpl });
     if (!fetched.ok) {
       attempts.push({ year, url: source.url, reason: fetched.error });
       continue;
     }
-    const extracted = extractDeclarative(next, htmlToText(fetched.text));
+    const extracted = extractDeclarative(next, fetched.text);
     if (!extracted.ok) {
       attempts.push({ year, url: source.url, reason: `extraction failed: ${extracted.errors.join('; ')}` });
       continue;

@@ -6,7 +6,7 @@
 // venue schema and are validated with the same rules.
 import { basename } from 'node:path';
 import { Report, isPlainObject, isNonEmptyString, ID_RE, isHttpUrl, isLocalized, DATE_ONLY_RE } from './errors.mjs';
-import { DATE_RE_SOURCE, resolveOffset, normalizeTime, isValidDateOnly } from './dates.mjs';
+import { DATE_RE_SOURCE, resolveOffset, normalizeTime, isValidDateOnly, isValidIanaTimeZone } from './dates.mjs';
 import { PATHS, readJson, listJsonFiles, existsSync } from './io.mjs';
 import { VENUE_TYPES } from './config.mjs';
 import { validateRollover } from './rollover.mjs';
@@ -101,6 +101,49 @@ function validateCfp(input, report, path, venue) {
     } else if (isHttpUrl(cfp.url)) {
       const host = new URL(cfp.url).hostname;
       if (!cfp.allowedHosts.includes(host)) bad('allowedHosts', `must include the url host "${host}"`);
+    }
+  }
+
+  // 수집 방식과 반복 규칙은 선언형에만 적용하며 잘못된 설정은 실행 전에 거절합니다.
+  const patternCheck = (value, key, groups) => {
+    try {
+      if (!isNonEmptyString(value)) throw new Error('required pattern');
+      const result = compilePattern(value);
+      if (groups !== undefined && result.groups !== groups) throw new Error('incorrect capture group count');
+    } catch (err) { bad(key, err.message); }
+  };
+  if (cfp.source !== undefined) {
+    const s = cfp.source;
+    if (cfp.adapter !== 'declarative' || !isPlainObject(s)) bad('source', 'requires a declarative source mapping');
+    else {
+      if (!['html', 'javascript-strings', 'embedded-json'].includes(s.format)) bad('source.format', 'unknown format');
+      if (s.follow !== undefined) {
+        if (!Array.isArray(s.follow) || s.follow.length > 3) bad('source.follow', 'at most 3 reference patterns');
+        else s.follow.forEach((p, i) => patternCheck(p, `source.follow[${i}]`, 1));
+      }
+      if (s.format === 'embedded-json') {
+        if (!/^[a-z][a-z0-9-]*$/.test(s.attribute ?? '')) bad('source.attribute', 'invalid HTML attribute');
+        if (!/^[A-Za-z_$][\w$]*$/.test(s.variable ?? '')) bad('source.variable', 'invalid variable name');
+      }
+    }
+  }
+  if (cfp.guards !== undefined) {
+    if (cfp.adapter !== 'declarative' || !Array.isArray(cfp.guards)) bad('guards', 'requires a declarative pattern list');
+    else cfp.guards.forEach((p, i) => patternCheck(p, `guards[${i}]`, 0));
+  }
+  if (cfp.recurrence !== undefined) {
+    const r = cfp.recurrence;
+    if (cfp.adapter !== 'declarative' || !isPlainObject(r)) bad('recurrence', 'requires a declarative recurrence mapping');
+    else {
+      if (r.kind !== 'monthly') bad('recurrence.kind', 'must be monthly');
+      for (const key of ['startPattern', 'endPattern', 'paperDayPattern', 'abstractDayPattern', 'timePattern']) patternCheck(r[key], 'recurrence.' + key, 1);
+      patternCheck(r.timezonePattern, 'recurrence.timezonePattern', 0);
+      if (!isValidIanaTimeZone(r.timeZone)) bad('recurrence.timeZone', 'requires an IANA timezone');
+      if (cfp.rollover) bad('recurrence', 'rollover is not supported for monthly rules');
+      if (cfp.rounds?.length !== 1 || cfp.rounds[0]?.milestones?.map(m => m.type).join(',') !== 'abstract,paper') bad('recurrence', 'requires one abstract/paper round template');
+      for (const m of cfp.rounds?.[0]?.milestones ?? []) {
+        if ((m.state !== undefined && m.state !== 'dated') || ['date', 'pattern', 'time', 'tz'].some(key => m[key] !== undefined)) bad('recurrence', 'monthly milestones must derive dates and times only from the rule');
+      }
     }
   }
 
@@ -199,7 +242,7 @@ function validateMilestone(input, report, path, cfp, types) {
   if (m.type !== 'other' && types.has(m.type)) bad('type', `duplicate milestone type "${m.type}" in this round`);
   types.add(m.type);
 
-  if (m.state === undefined) m.state = (m.pattern !== undefined || m.date !== undefined) ? 'dated' : 'tba';
+  if (m.state === undefined) m.state = (m.pattern !== undefined || m.date !== undefined || cfp.recurrence) ? 'dated' : 'tba';
   if (!MILESTONE_STATES.includes(m.state)) bad('state', `must be one of ${MILESTONE_STATES.join(', ')}`);
 
   if (m.time !== undefined && !normalizeTime(m.time)) bad('time', 'must be HH:MM or HH:MM:SS');
@@ -207,7 +250,7 @@ function validateMilestone(input, report, path, cfp, types) {
   if (m.dateFormat !== undefined && !['dmy', 'mdy'].includes(m.dateFormat)) bad('dateFormat', 'must be "dmy" or "mdy"');
 
   if (m.state === 'dated') {
-    if (cfp.adapter === 'declarative') {
+    if (cfp.adapter === 'declarative' && !cfp.recurrence) {
       if (!isNonEmptyString(m.pattern)) {
         bad('pattern', 'required for a dated milestone: regex with {{DATE}} or one capture group');
       } else {

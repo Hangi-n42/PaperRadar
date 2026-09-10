@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T07:44:20Z",
+  "updatedAt": "2026-09-10T08:03:25Z",
   "venues": {
     "asplos": {
       "editions": [
@@ -2241,10 +2241,10 @@
             "url": "https://2026.aclweb.org/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "2b8adf81be446dfab0a6e73b1ba29d205aebb4fae9ae8ae8bf55079f6cc928a0"
+            "contentHash": "84feba6ea37d01902e9179d9d041b761ac97574daabaaf8cc524c3c5a6101bcf"
           },
           "rounds": [
             {
@@ -2316,10 +2316,10 @@
             "url": "https://bento-neurips.github.io/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "12f007c1d767b1b16817b0e15aa8c78f7d438db0891b3f2cbd0082f32e5284bc"
+            "contentHash": "2e011c725e90082793f038a0ef428685e0404bbca79ae981d07fa5ac30f91dbb"
           },
           "rounds": [
             {
@@ -2367,10 +2367,10 @@
             "url": "https://cikm2026.diag.uniroma1.it/full-research-papers/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "6e447f78f8c65aadc38d8ee0b993864a5c14c3fe2107686a22995878029df565"
+            "contentHash": "70794feeacf195f6be8c78858f4da0e0361242f38fa42f11c02a85654eee164a"
           },
           "rounds": [
             {
@@ -2438,10 +2438,10 @@
             "url": "https://2027.coling-iccl.org/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "7a5141747f16218cbcac73ad8e3695fef7243c28d5141ed3d190c7b877a80d60"
+            "contentHash": "741314f2630159969e4bedb053881d0f3ea01aba9216265cec125d8084512f9a"
           },
           "rounds": [
             {
@@ -2498,12 +2498,12 @@
           "event": null,
           "source": {
             "url": "https://2026.corl.org/contributions/instruction-for-authors",
-            "adapter": "manual",
-            "status": "manual",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": null
+            "contentHash": "a22ed89e31eae30e5944f9f4821e077976eca72c4416f41c35166307e9b1a202"
           },
           "rounds": [
             {
@@ -2519,8 +2519,7 @@
                   "tzOffset": "-12:00",
                   "tzConfirmed": true,
                   "sourceText": "2026-05-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -2530,8 +2529,7 @@
                   "tzOffset": "-12:00",
                   "tzConfirmed": true,
                   "sourceText": "2026-05-28",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "verification": "verified"
                 },
                 {
                   "type": "camera-ready",
@@ -2541,8 +2539,7 @@
                   "tzOffset": "-12:00",
                   "tzConfirmed": true,
                   "sourceText": "2026-10-12",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "verification": "verified"
                 }
               ]
             }
@@ -2561,10 +2558,10 @@
             "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "0db6c222b9b28f5205de0038d6e51bd90a213dca7725e8cb6b0df3ce62355475"
+            "contentHash": "23ec6ca4cf2f21206799b24440554573ff9c94f511376513fa0957de66a867cd"
           },
           "rounds": [
             {
@@ -2630,10 +2627,10 @@
             "url": "https://2026.emnlp.org/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "870d36e2ab39acac9ff95504f77013bc5c6610858ce3d2f477912f006c2d5887"
+            "contentHash": "9c298b9b73d819f63313a35e2864f0657093c303f367840169ad3da649ceed6f"
           },
           "rounds": [
             {
@@ -2705,10 +2702,10 @@
             "url": "https://2026.eswc-conferences.org/calls/papers-research-track/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "eb9e19fcc44e836e7df19b291edce73597460d9078fc9b45c52d6db96f7895da"
+            "contentHash": "1c811c53cdbd7ab783aa3f23f4f87a10d2b906946245468fe53e9fe98a5af7dc"
           },
           "rounds": [
             {
@@ -2776,10 +2773,10 @@
             "url": "https://icde2027.github.io/important-dates.html",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "e3653b41ab9b0621398a6e2551ef565e6d55776d53f1ae20c53c3cda844bee0f"
+            "contentHash": "cb797f116ee6b4df5dc5a55fd4d8d22c7be710f5a6b724622d3e25b3d8f92062"
           },
           "rounds": [
             {
@@ -2857,10 +2854,10 @@
             "url": "https://iclr.cc/Conferences/2027/AuthorGuidelines",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "82ad84496c7d326924df33ed3161ab4f34a926e64b0a6dbe17187e3c705306f3"
+            "contentHash": "c57892230ccd5716447d1477ed31c113ed7f5bb63d5205cb55b3221448e28516"
           },
           "rounds": [
             {
@@ -2908,10 +2905,10 @@
             "url": "https://icml.cc/Conferences/2026/CallForPapers",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "e9363ad96428f9a056bf9bcba67a15dc106e1552b7dfc573ad1f97c0ca4cc06f"
+            "contentHash": "a5aad3b0a0702034a59c6d297816284559c88a656eec6a360b5987085ea4d335"
           },
           "rounds": [
             {
@@ -2959,10 +2956,10 @@
             "url": "https://2027.ieee-icra.org/announcements/call-for-technical-papers/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "b7ecd8492259075688f397226c3cddb9ab7aca48a1d56b7b6ddfbae0838014bd"
+            "contentHash": "2bd4313cd2ef2eca2222f623281a54e159d89dfef99b6f971842577028443b03"
           },
           "rounds": [
             {
@@ -2998,12 +2995,12 @@
           "event": null,
           "source": {
             "url": "https://iswc2026.semanticweb.org/#/calls/research",
-            "adapter": "manual",
-            "status": "manual",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": null
+            "contentHash": "3a489d79df42265b7ef5bc04f0862952136c38c21a3a9049e6a6f48f846a4db3"
           },
           "rounds": [
             {
@@ -3021,9 +3018,8 @@
                   "tzLabel": "AoE",
                   "tzOffset": "-12:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-05-02",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2 May 2026",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3032,9 +3028,8 @@
                   "tzLabel": "AoE",
                   "tzOffset": "-12:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-05-07",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "7 May 2026",
+                  "verification": "verified"
                 },
                 {
                   "type": "notification",
@@ -3043,9 +3038,8 @@
                   "tzLabel": "AoE",
                   "tzOffset": "-12:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-07-16",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "16 July 2026",
+                  "verification": "verified"
                 },
                 {
                   "type": "camera-ready",
@@ -3054,9 +3048,8 @@
                   "tzLabel": "AoE",
                   "tzOffset": "-12:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-08-06",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "6 August 2026",
+                  "verification": "verified"
                 }
               ]
             }
@@ -3075,10 +3068,10 @@
             "url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "5fab33b3316269a15bdad5786915bc0b8307af2c4bedd9a1874a65339c34af23"
+            "contentHash": "ddec34a6e0c7dafc438320906c2cba802e5743195e5771986a08b20dbe28290a"
           },
           "rounds": [
             {
@@ -3136,10 +3129,10 @@
             "url": "https://2027.naacl.org/calls/main_conference_papers/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "d955ff69afc4fb1be6e42f1b7234a9634595c5ced0233ec268b1a4de58026312"
+            "contentHash": "6de359f6f84806569df805d82227d88f870d464ddf1e5bc47c878acc669dc037"
           },
           "rounds": [
             {
@@ -3198,10 +3191,10 @@
             "url": "https://neurips.cc/Conferences/2026/CallForPapers",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "e29398ee247beb3b361a620ad4faa52ceaef54f37a81a4a77695dff3adb0d48d"
+            "contentHash": "cf31dc44da7ee378d8322f8c09aa8e5f90df12d38f60a564328a251d936d3ff9"
           },
           "rounds": [
             {
@@ -3259,10 +3252,10 @@
             "url": "https://roboticsconference.org/information/cfp/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "8e668ed2d2c140939e3f39e40c465c271dba962d1a45dbdc4e101e520123b445"
+            "contentHash": "8a8a08851bbee738785f676bcbb21936b3a4aa0017d51dde70e608b9cdc379f8"
           },
           "rounds": [
             {
@@ -3330,10 +3323,10 @@
             "url": "https://scaling-h2r-corl.github.io/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "94d0770e61ff87cd7c392bbad0674ae8082df7a7c61c497d88528a2d4a2343ac"
+            "contentHash": "fb69f1be96643c2cd81c4d2dd365278c77f4e8ec5ce42535f7a9c7b004019e8e"
           },
           "rounds": [
             {
@@ -3371,10 +3364,10 @@
             "url": "https://2027.sigmod.org/calls_papers_sigmod_research.shtml",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "25fd15a7850fe72aff68815a9d9e0d38aead241de55163edbd7cb1b0806b50e9"
+            "contentHash": "645e2293c6a40e5808f52761ede007b474ff6952f0014fc58d30de6c4ec829ff"
           },
           "rounds": [
             {
@@ -3510,20 +3503,17 @@
           "event": null,
           "source": {
             "url": "https://www.vldb.org/2027/submission-guidelines.html",
-            "adapter": "manual",
-            "status": "manual",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "adapter": "declarative",
+            "status": "ok",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": null
+            "contentHash": "11c4a4da0e103549277bcdc04571067a9508b536ba423b12b4c132b8666f50ef"
           },
           "rounds": [
             {
               "id": "month-2026-04",
-              "label": {
-                "ko": "2026-04 투고",
-                "en": "2026-04 submission"
-              },
+              "label": "2026-04",
               "track": "full",
               "milestones": [
                 {
@@ -3533,9 +3523,8 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-03-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-03-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3544,18 +3533,14 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-04-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-04-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             },
             {
               "id": "month-2026-05",
-              "label": {
-                "ko": "2026-05 투고",
-                "en": "2026-05 submission"
-              },
+              "label": "2026-05",
               "track": "full",
               "milestones": [
                 {
@@ -3565,9 +3550,8 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-04-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-04-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3576,18 +3560,14 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-05-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-05-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             },
             {
               "id": "month-2026-06",
-              "label": {
-                "ko": "2026-06 투고",
-                "en": "2026-06 submission"
-              },
+              "label": "2026-06",
               "track": "full",
               "milestones": [
                 {
@@ -3597,9 +3577,8 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-05-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-05-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3608,18 +3587,14 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-06-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-06-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             },
             {
               "id": "month-2026-07",
-              "label": {
-                "ko": "2026-07 투고",
-                "en": "2026-07 submission"
-              },
+              "label": "2026-07",
               "track": "full",
               "milestones": [
                 {
@@ -3629,9 +3604,8 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-06-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-06-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3640,18 +3614,14 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-07-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-07-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             },
             {
               "id": "month-2026-08",
-              "label": {
-                "ko": "2026-08 투고",
-                "en": "2026-08 submission"
-              },
+              "label": "2026-08",
               "track": "full",
               "milestones": [
                 {
@@ -3661,9 +3631,8 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-07-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-07-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3672,18 +3641,14 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-08-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-08-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             },
             {
               "id": "month-2026-09",
-              "label": {
-                "ko": "2026-09 투고",
-                "en": "2026-09 submission"
-              },
+              "label": "2026-09",
               "track": "full",
               "milestones": [
                 {
@@ -3693,9 +3658,8 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-08-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-08-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3704,18 +3668,14 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-09-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-09-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             },
             {
               "id": "month-2026-10",
-              "label": {
-                "ko": "2026-10 투고",
-                "en": "2026-10 submission"
-              },
+              "label": "2026-10",
               "track": "full",
               "milestones": [
                 {
@@ -3725,9 +3685,8 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-09-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-09-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3736,18 +3695,14 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-10-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-10-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             },
             {
               "id": "month-2026-11",
-              "label": {
-                "ko": "2026-11 투고",
-                "en": "2026-11 submission"
-              },
+              "label": "2026-11",
               "track": "full",
               "milestones": [
                 {
@@ -3757,9 +3712,8 @@
                   "tzLabel": "PDT",
                   "tzOffset": "-07:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-10-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-10-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3768,18 +3722,14 @@
                   "tzLabel": "PST",
                   "tzOffset": "-08:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-11-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-11-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             },
             {
               "id": "month-2026-12",
-              "label": {
-                "ko": "2026-12 투고",
-                "en": "2026-12 submission"
-              },
+              "label": "2026-12",
               "track": "full",
               "milestones": [
                 {
@@ -3789,9 +3739,8 @@
                   "tzLabel": "PST",
                   "tzOffset": "-08:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-11-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-11-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3800,18 +3749,14 @@
                   "tzLabel": "PST",
                   "tzOffset": "-08:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-12-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-12-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             },
             {
               "id": "month-2027-01",
-              "label": {
-                "ko": "2027-01 투고",
-                "en": "2027-01 submission"
-              },
+              "label": "2027-01",
               "track": "full",
               "milestones": [
                 {
@@ -3821,9 +3766,8 @@
                   "tzLabel": "PST",
                   "tzOffset": "-08:00",
                   "tzConfirmed": true,
-                  "sourceText": "2026-12-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2026-12-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3832,18 +3776,14 @@
                   "tzLabel": "PST",
                   "tzOffset": "-08:00",
                   "tzConfirmed": true,
-                  "sourceText": "2027-01-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2027-01-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             },
             {
               "id": "month-2027-02",
-              "label": {
-                "ko": "2027-02 투고",
-                "en": "2027-02 submission"
-              },
+              "label": "2027-02",
               "track": "full",
               "milestones": [
                 {
@@ -3853,9 +3793,8 @@
                   "tzLabel": "PST",
                   "tzOffset": "-08:00",
                   "tzConfirmed": true,
-                  "sourceText": "2027-01-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2027-01-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3864,18 +3803,14 @@
                   "tzLabel": "PST",
                   "tzOffset": "-08:00",
                   "tzConfirmed": true,
-                  "sourceText": "2027-02-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2027-02-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             },
             {
               "id": "month-2027-03",
-              "label": {
-                "ko": "2027-03 투고",
-                "en": "2027-03 submission"
-              },
+              "label": "2027-03",
               "track": "full",
               "milestones": [
                 {
@@ -3885,9 +3820,8 @@
                   "tzLabel": "PST",
                   "tzOffset": "-08:00",
                   "tzConfirmed": true,
-                  "sourceText": "2027-02-25",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2027-02-25 (official monthly rule)",
+                  "verification": "verified"
                 },
                 {
                   "type": "paper",
@@ -3896,9 +3830,8 @@
                   "tzLabel": "PST",
                   "tzOffset": "-08:00",
                   "tzConfirmed": true,
-                  "sourceText": "2027-03-01",
-                  "verification": "verified",
-                  "verifiedAt": "2026-09-10"
+                  "sourceText": "2027-03-01 (official monthly rule)",
+                  "verification": "verified"
                 }
               ]
             }
@@ -3917,10 +3850,10 @@
             "url": "https://www2027.thewebconf.org/research-track-papers/",
             "adapter": "declarative",
             "status": "ok",
-            "checkedAt": "2026-09-10T07:44:20Z",
-            "lastOkAt": "2026-09-10T07:44:20Z",
+            "checkedAt": "2026-09-10T08:03:25Z",
+            "lastOkAt": "2026-09-10T08:03:25Z",
             "error": null,
-            "contentHash": "38b6785afc949232db511a8cd068738a47db172b14ec01ed33613990d7f525b2"
+            "contentHash": "4e8859bf415f0812b232946788c723bb13ca0c4fbbfe8306382ca9601becc4eb"
           },
           "rounds": [
             {

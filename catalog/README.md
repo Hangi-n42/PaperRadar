@@ -19,7 +19,7 @@ Semantic Dependency Modeling은 데이터 간 의미 관계와 자연어 의미 
 
 - 학술대회 19개, 저널 7개, 워크숍·챌린지 3개: 총 29개.
 - 기존 시스템·에너지 중심 항목 68개를 제거하고 NeurIPS, ICML, ICLR은 재작성했습니다.
-- 선언형 어댑터 18개, 수동 어댑터 3개, 일정 미확인 1개, 상시 투고 저널 7개.
+- 선언형 어댑터 21개, 일정 미확인 1개, 상시 투고 저널 7개. ISWC·CoRL·VLDB도 자동 갱신합니다.
 - 지난 회차의 확인된 날짜는 이력으로 남깁니다. 아직 발표되지 않은 다음 회차 날짜는 추정하지 않습니다.
 - `config/radar.yaml`의 8개 분야 선택으로 이 카탈로그 전체를 포함합니다.
 
@@ -29,7 +29,7 @@ Semantic Dependency Modeling은 데이터 간 의미 관계와 자연어 의미 
 | [COLING](venues/coling.json) | conference | COLING 2027 | declarative | [공식 출처](https://2027.coling-iccl.org/) |
 | [NAACL](venues/naacl.json) | conference | NAACL 2027 | declarative | [공식 출처](https://2027.naacl.org/calls/main_conference_papers/) |
 | [CIKM](venues/cikm.json) | conference | CIKM 2026 | declarative | [공식 출처](https://cikm2026.diag.uniroma1.it/full-research-papers/) |
-| [CoRL](venues/corl.json) | conference | CoRL 2026 | manual | [공식 출처](https://2026.corl.org/contributions/instruction-for-authors) |
+| [CoRL](venues/corl.json) | conference | CoRL 2026 | declarative | [공식 출처](https://2026.corl.org/contributions/instruction-for-authors) |
 | [CVPR](venues/cvpr.json) | conference | CVPR 2027 | declarative | [공식 출처](https://cvpr.thecvf.com/Conferences/2027/CallForPapers) |
 | [EMNLP](venues/emnlp.json) | conference | EMNLP 2026 | declarative | [공식 출처](https://2026.emnlp.org/) |
 | [ESWC](venues/eswc.json) | conference | ESWC 2026 | declarative | [공식 출처](https://2026.eswc-conferences.org/calls/papers-research-track/) |
@@ -37,12 +37,12 @@ Semantic Dependency Modeling은 데이터 간 의미 관계와 자연어 의미 
 | [ICLR](venues/iclr.json) | conference | ICLR 2027 | declarative | [공식 출처](https://iclr.cc/Conferences/2027/AuthorGuidelines) |
 | [ICML](venues/icml.json) | conference | ICML 2026 | declarative | [공식 출처](https://icml.cc/Conferences/2026/CallForPapers) |
 | [ICRA](venues/icra.json) | conference | ICRA 2027 | declarative | [공식 출처](https://2027.ieee-icra.org/announcements/call-for-technical-papers/) |
-| [ISWC](venues/iswc.json) | conference | ISWC 2026 | manual | [공식 출처](https://iswc2026.semanticweb.org/#/calls/research) |
+| [ISWC](venues/iswc.json) | conference | ISWC 2026 | declarative | [공식 출처](https://iswc2026.semanticweb.org/#/calls/research) |
 | [KDD](venues/kdd.json) | conference | KDD 2027 | declarative | [공식 출처](https://kdd2027.kdd.org/research-track-call-for-papers/) |
 | [NeurIPS](venues/neurips.json) | conference | NeurIPS 2026 | declarative | [공식 출처](https://neurips.cc/Conferences/2026/CallForPapers) |
 | [RSS](venues/rss.json) | conference | RSS 2026 | declarative | [공식 출처](https://roboticsconference.org/information/cfp/) |
 | [SIGMOD](venues/sigmod.json) | conference | SIGMOD 2027 | declarative | [공식 출처](https://2027.sigmod.org/calls_papers_sigmod_research.shtml) |
-| [VLDB](venues/vldb.json) | conference | VLDB 2027 / PVLDB Volume 20 | manual | [공식 출처](https://www.vldb.org/2027/submission-guidelines.html) |
+| [VLDB](venues/vldb.json) | conference | VLDB 2027 / PVLDB Volume 20 | declarative | [공식 출처](https://www.vldb.org/2027/submission-guidelines.html) |
 | [WWW](venues/www.json) | conference | WWW 2027 | declarative | [공식 출처](https://www2027.thewebconf.org/research-track-papers/) |
 | [DMLR](venues/dmlr.json) | journal | — | 상시 투고 | [공식 출처](https://data.mlr.press/) |
 | [JMLR](venues/jmlr.json) | journal | — | 상시 투고 | [공식 출처](https://www.jmlr.org/author-info.html) |
@@ -57,10 +57,10 @@ Semantic Dependency Modeling은 데이터 간 의미 관계와 자연어 의미 
 
 ## 예외와 유지관리
 
-- ISWC: JavaScript 페이지의 연구 트랙 날짜를 브라우저에서 읽어 등록했습니다.
-- CoRL: 공식 작성자 안내에 삽입된 일정표와 본문의 최종본 안내를 브라우저로 확인했습니다.
-- VLDB: 공식 PVLDB v20 규칙을 전개했습니다. 2026년 4월부터 2027년 3월까지 논문은 매월 1일, 초록은 전월 25일이며 시각은 Pacific Time 17:00입니다. 미국 서머타임을 날짜별로 환산했습니다. 반복 규칙은 현재 선언형 날짜 파서가 처리하지 못하므로 수동으로 관리합니다.
-- 위 수동 항목의 모든 날짜에 `verifiedAt: 2026-09-10`을 기록했습니다. `probe`의 수동 결과는 등록값 검사이며 공식 페이지의 자동 재확인을 뜻하지 않습니다.
+- ISWC: 공식 HTML → 현재 앱 모듈 → 연구 트랙 모듈의 참조를 매번 따라가고 문자열을 정적으로 읽습니다. 파일명 해시가 바뀌어도 추적하며 코드를 실행하지 않습니다.
+- CoRL: 공식 페이지의 `data-code`에 들어 있는 iframe 원본에서 `important_dates` 객체를 읽습니다. JavaScript 구문 분석으로 주석을 제외하며 실행식은 거절합니다.
+- VLDB: 공식 월별 규칙의 시작·종료 날짜, 논문일, 전월 초록일, 시각을 매번 읽습니다. 공식 Pacific Time 문구를 확인하고 `America/Los_Angeles`의 날짜별 서머타임을 적용합니다.
+- 세 곳 모두 자동 확인 실패 시 이전 날짜를 보존하고 `needs-verification`으로 표시합니다. 지원하지 않는 페이지 구조 변경이나 새 회차의 CFP는 어댑터 수정이 필요할 수 있습니다.
 - SemTab: 표·컬럼 주석 벤치마크 챌린지를 기존 유형 체계의 workshop으로 분류했습니다. 공식 시리즈 페이지에서 2026 공지를 확인하지 못해 `adapter: none`으로 두었습니다.
 - ICRA: CFP의 PST 표기를 그대로 적용했습니다. IEEE RAS의 다른 안내는 Pacific time이라고 표현하므로 실제 제출 시스템도 확인해야 합니다.
 - ICDE: 공식 Pacific Time 17:00을 날짜별 PDT/PST로 환산합니다. 대략적인 일정이라고 명시된 통보일은 제외했습니다.
@@ -90,6 +90,6 @@ npm run build
 npm run doctor
 ```
 
-전체 대상의 실행 결과는 [검증 보고서](verification-2026-09-10.md)에 기록합니다. 스키마와 어댑터 작성 규칙은 [기존 안내](../docs/adding-a-venue.md)를 따릅니다.
+초기 수동 구성 결과는 [초기 검증 보고서](verification-2026-09-10.md)에, 이후 자동화 결과는 [자동화 검증 보고서](automation-verification-2026-09-10.md)에 기록합니다. 스키마와 어댑터 작성 규칙은 [기존 안내](../docs/adding-a-venue.md)를 따릅니다.
 
 기존 `data/` 이력은 손으로 삭제하지 않습니다. `refresh`로 새 일정을 생성하며, 카탈로그에서 제거된 대상의 과거 데이터는 남아 검증 경고가 발생할 수 있습니다. 사이트 선택 대상에서는 제외됩니다.

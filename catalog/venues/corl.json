@@ -16,7 +16,7 @@
   "homepage": "https://2026.corl.org/",
   "submission": "cfp",
   "cfp": {
-    "adapter": "manual",
+    "adapter": "declarative",
     "url": "https://2026.corl.org/contributions/instruction-for-authors",
     "allowedHosts": [
       "2026.corl.org"
@@ -36,25 +36,27 @@
         "milestones": [
           {
             "type": "abstract",
-            "date": "2026-05-25",
-            "verifiedAt": "2026-09-10"
+            "pattern": "\"abstract-deadline\":\\{\"time\":\"{{DATE}} 23:59\",\"zone\":-12,\"zone_text\":\"AoE\""
           },
           {
             "type": "paper",
-            "date": "2026-05-28",
-            "verifiedAt": "2026-09-10"
+            "pattern": "\"full-paper-submission\":\\{\"time\":\"{{DATE}} 23:59\",\"zone\":-12,\"zone_text\":\"AoE\""
           },
           {
             "type": "camera-ready",
-            "date": "2026-10-12",
-            "verifiedAt": "2026-09-10"
+            "pattern": "\"camera-ready\":\\{\"time\":\"{{DATE}} 23:59\",\"zone\":-12,\"zone_text\":\"AoE\""
           }
         ]
       }
-    ]
+    ],
+    "source": {
+      "format": "embedded-json",
+      "attribute": "data-code",
+      "variable": "important_dates"
+    }
   },
   "note": {
-    "ko": "공식 작성자 안내의 임베디드 일정표와 최종본 안내를 2026-09-10에 브라우저로 확인했습니다. 수동 갱신이 필요합니다.",
-    "en": "Embedded dates and camera-ready instructions checked in the official author guide on 2026-09-10. Requires manual updates."
+    "ko": "공식 작성자 안내의 iframe 원본 일정 객체를 매일 자동 수집합니다. 내장 코드를 실행하지 않고 날짜와 시간대 근거를 검사합니다.",
+    "en": "Automatically reads the official embedded schedule object daily without executing scripts, checking date and timezone evidence."
   }
 }
